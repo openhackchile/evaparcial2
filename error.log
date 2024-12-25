@@ -1,9 +1,9 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>403 Forbidden</title>
-</head><body>
-<h1>Forbidden</h1>
-<p>You don't have permission to access this resource.</p>
-<hr>
-<address>Apache/2.4.58 (Ubuntu) Server at 54.81.37.208 Port 80</address>
-</body></html>
+[Wed Dec 25 13:04:02.744588 2024] [mpm_event:notice] [pid 2087:tid 126266540222336] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 25 13:04:02.744677 2024] [core:notice] [pid 2087:tid 126266540222336] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 25 17:02:05.552464 2024] [mpm_event:notice] [pid 2087:tid 126266540222336] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Dec 25 17:12:13.755614 2024] [mpm_event:notice] [pid 573:tid 132378628913024] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 25 17:12:13.764122 2024] [core:notice] [pid 573:tid 132378628913024] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 25 17:17:35.397986 2024] [core:error] [pid 575:tid 132378435520192] (13)Permission denied: [client 179.60.74.230:38273] AH00132: file permissions deny server access: /var/www/html/archivos/access.log, referer: http://54.81.37.208/archivos/
+[Wed Dec 25 17:17:43.000423 2024] [core:error] [pid 575:tid 132378372605632] (13)Permission denied: [client 179.60.74.230:38094] AH00132: file permissions deny server access: /var/www/html/archivos/access.log, referer: http://54.81.37.208/archivos/
+[Wed Dec 25 17:18:12.452322 2024] [core:error] [pid 574:tid 132378519406272] (13)Permission denied: [client 179.60.74.230:38191] AH00132: file permissions deny server access: /var/www/html/archivos/auth.log, referer: http://54.81.37.208/archivos/
+[Wed Dec 25 17:18:29.793196 2024] [core:error] [pid 575:tid 132378330662592] (13)Permission denied: [client 179.60.74.230:38152] AH00132: file permissions deny server access: /var/www/html/archivos/error.log, referer: http://54.81.37.208/archivos/

@@ -1,9 +1,1302 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>403 Forbidden</title>
-</head><body>
-<h1>Forbidden</h1>
-<p>You don't have permission to access this resource.</p>
-<hr>
-<address>Apache/2.4.58 (Ubuntu) Server at 54.81.37.208 Port 80</address>
-</body></html>
+2024-12-23T22:06:18.062525+00:00 ip-172-31-27-232 useradd[614]: new group: name=ubuntu, GID=1000
+2024-12-23T22:06:18.062528+00:00 ip-172-31-27-232 useradd[614]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+2024-12-23T22:06:18.062532+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to group 'adm'
+2024-12-23T22:06:18.062534+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to group 'cdrom'
+2024-12-23T22:06:18.062537+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to group 'sudo'
+2024-12-23T22:06:18.062561+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to group 'dip'
+2024-12-23T22:06:18.062564+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to group 'lxd'
+2024-12-23T22:06:18.062566+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to shadow group 'adm'
+2024-12-23T22:06:18.063222+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to shadow group 'cdrom'
+2024-12-23T22:06:18.063229+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to shadow group 'sudo'
+2024-12-23T22:06:18.063232+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to shadow group 'dip'
+2024-12-23T22:06:18.063235+00:00 ip-172-31-27-232 useradd[614]: add 'ubuntu' to shadow group 'lxd'
+2024-12-23T22:06:18.063239+00:00 ip-172-31-27-232 passwd[622]: password for 'ubuntu' changed by 'root'
+2024-12-23T22:06:18.063601+00:00 ip-172-31-27-232 systemd-logind[658]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-12-23T22:06:18.063604+00:00 ip-172-31-27-232 systemd-logind[658]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-12-23T22:06:18.063607+00:00 ip-172-31-27-232 systemd-logind[658]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-12-23T22:06:18.063609+00:00 ip-172-31-27-232 systemd-logind[658]: New seat seat0.
+2024-12-23T22:06:18.063667+00:00 ip-172-31-27-232 polkitd[651]: Loading rules from directory /etc/polkit-1/rules.d
+2024-12-23T22:06:18.063679+00:00 ip-172-31-27-232 polkitd[651]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-12-23T22:06:18.063686+00:00 ip-172-31-27-232 polkitd[651]: Finished loading, compiling and executing 6 rules
+2024-12-23T22:06:18.063691+00:00 ip-172-31-27-232 polkitd[651]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-12-23T22:15:01.304826+00:00 ip-172-31-27-232 CRON[1075]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T22:15:01.309207+00:00 ip-172-31-27-232 CRON[1075]: pam_unix(cron:session): session closed for user root
+2024-12-23T22:16:47.062711+00:00 ip-172-31-27-232 sshd[1082]: Server listening on :: port 22.
+2024-12-23T22:16:48.604001+00:00 ip-172-31-27-232 ec2-instance-connect[1215]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:n6VWs2dii2JHIObYyiwxaaIRqwippKqeW0Ni7iXe5BY
+2024-12-23T22:16:48.635937+00:00 ip-172-31-27-232 ec2-instance-connect[1247]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:n6VWs2dii2JHIObYyiwxaaIRqwippKqeW0Ni7iXe5BY, request-id: 7cb3ad69-ac81-4be6-b35d-a025fd6060a2, for IAM principal: arn:aws:sts::624979103661:assumed-role/voclabs/user3724648=Estudiante_de_prueba
+2024-12-23T22:16:50.039892+00:00 ip-172-31-27-232 ec2-instance-connect[1386]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:n6VWs2dii2JHIObYyiwxaaIRqwippKqeW0Ni7iXe5BY
+2024-12-23T22:16:50.070110+00:00 ip-172-31-27-232 ec2-instance-connect[1418]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:n6VWs2dii2JHIObYyiwxaaIRqwippKqeW0Ni7iXe5BY, request-id: 7cb3ad69-ac81-4be6-b35d-a025fd6060a2, for IAM principal: arn:aws:sts::624979103661:assumed-role/voclabs/user3724648=Estudiante_de_prueba
+2024-12-23T22:16:50.787890+00:00 ip-172-31-27-232 sshd[1084]: Accepted publickey for ubuntu from 18.206.107.28 port 21107 ssh2: ED25519 SHA256:n6VWs2dii2JHIObYyiwxaaIRqwippKqeW0Ni7iXe5BY
+2024-12-23T22:16:50.790032+00:00 ip-172-31-27-232 sshd[1084]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-23T22:16:50.816843+00:00 ip-172-31-27-232 systemd-logind[658]: New session 2 of user ubuntu.
+2024-12-23T22:16:50.834366+00:00 ip-172-31-27-232 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-23T22:17:01.314930+00:00 ip-172-31-27-232 CRON[1586]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T22:17:01.318637+00:00 ip-172-31-27-232 CRON[1586]: pam_unix(cron:session): session closed for user root
+2024-12-23T22:17:18.191495+00:00 ip-172-31-27-232 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su
+2024-12-23T22:17:18.191917+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-12-23T22:17:18.198554+00:00 ip-172-31-27-232 su[1591]: (to root) root on pts/1
+2024-12-23T22:17:18.199304+00:00 ip-172-31-27-232 su[1591]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-12-23T22:19:20.018001+00:00 ip-172-31-27-232 polkitd[3435]: Loading rules from directory /etc/polkit-1/rules.d
+2024-12-23T22:19:20.018054+00:00 ip-172-31-27-232 polkitd[3435]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-12-23T22:19:20.018697+00:00 ip-172-31-27-232 polkitd[3435]: Finished loading, compiling and executing 6 rules
+2024-12-23T22:19:20.020422+00:00 ip-172-31-27-232 polkitd[3435]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-12-23T22:25:01.326319+00:00 ip-172-31-27-232 CRON[13209]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T22:25:01.326489+00:00 ip-172-31-27-232 CRON[13209]: pam_unix(cron:session): session closed for user root
+2024-12-23T22:35:01.332416+00:00 ip-172-31-27-232 CRON[14904]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T22:35:01.333241+00:00 ip-172-31-27-232 CRON[14904]: pam_unix(cron:session): session closed for user root
+2024-12-23T22:45:01.339241+00:00 ip-172-31-27-232 CRON[15792]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T22:45:01.344032+00:00 ip-172-31-27-232 CRON[15792]: pam_unix(cron:session): session closed for user root
+2024-12-23T22:55:01.350069+00:00 ip-172-31-27-232 CRON[16156]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T22:55:01.352898+00:00 ip-172-31-27-232 CRON[16156]: pam_unix(cron:session): session closed for user root
+2024-12-23T23:05:01.360444+00:00 ip-172-31-27-232 CRON[17423]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T23:05:01.360866+00:00 ip-172-31-27-232 CRON[17423]: pam_unix(cron:session): session closed for user root
+2024-12-23T23:15:01.365041+00:00 ip-172-31-27-232 CRON[18249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T23:15:01.368603+00:00 ip-172-31-27-232 CRON[18249]: pam_unix(cron:session): session closed for user root
+2024-12-23T23:17:01.373646+00:00 ip-172-31-27-232 CRON[18314]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T23:17:01.379604+00:00 ip-172-31-27-232 CRON[18314]: pam_unix(cron:session): session closed for user root
+2024-12-23T23:25:01.382369+00:00 ip-172-31-27-232 CRON[19216]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T23:25:01.386409+00:00 ip-172-31-27-232 CRON[19216]: pam_unix(cron:session): session closed for user root
+2024-12-23T23:35:01.392119+00:00 ip-172-31-27-232 CRON[20580]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T23:35:01.397935+00:00 ip-172-31-27-232 CRON[20580]: pam_unix(cron:session): session closed for user root
+2024-12-23T23:45:01.402108+00:00 ip-172-31-27-232 CRON[22084]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T23:45:01.404980+00:00 ip-172-31-27-232 CRON[22084]: pam_unix(cron:session): session closed for user root
+2024-12-23T23:55:01.409867+00:00 ip-172-31-27-232 CRON[23270]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T23:55:01.413147+00:00 ip-172-31-27-232 CRON[23270]: pam_unix(cron:session): session closed for user root
+2024-12-23T23:57:46.800694+00:00 ip-172-31-27-232 sudo:     root : TTY=pts/1 ; PWD=/opt/zeek ; USER=root ; COMMAND=/usr/bin/make install
+2024-12-23T23:57:46.804501+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-12-23T23:58:24.700138+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session closed for user root
+2024-12-23T23:59:01.416602+00:00 ip-172-31-27-232 CRON[28819]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-23T23:59:01.420654+00:00 ip-172-31-27-232 CRON[28819]: pam_unix(cron:session): session closed for user root
+2024-12-24T00:05:01.424688+00:00 ip-172-31-27-232 CRON[28980]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T00:05:01.431012+00:00 ip-172-31-27-232 CRON[28980]: pam_unix(cron:session): session closed for user root
+2024-12-24T00:15:01.434282+00:00 ip-172-31-27-232 CRON[29210]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T00:15:01.436978+00:00 ip-172-31-27-232 CRON[29210]: pam_unix(cron:session): session closed for user root
+2024-12-24T00:17:01.440854+00:00 ip-172-31-27-232 CRON[29218]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T00:17:01.443585+00:00 ip-172-31-27-232 CRON[29218]: pam_unix(cron:session): session closed for user root
+2024-12-24T00:25:01.448798+00:00 ip-172-31-27-232 CRON[29226]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T00:25:01.451552+00:00 ip-172-31-27-232 CRON[29226]: pam_unix(cron:session): session closed for user root
+2024-12-24T00:30:22.271362+00:00 ip-172-31-27-232 sshd[29263]: Accepted publickey for ubuntu from 181.42.43.32 port 19824 ssh2: RSA SHA256:PuvCit2H3kdHlZfM+3lYC9nIeHog/JGNez001l2LJzE
+2024-12-24T00:30:22.272786+00:00 ip-172-31-27-232 sshd[29263]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-24T00:30:22.276295+00:00 ip-172-31-27-232 systemd-logind[658]: New session 21 of user ubuntu.
+2024-12-24T00:30:27.823365+00:00 ip-172-31-27-232 sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su
+2024-12-24T00:30:27.825883+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-12-24T00:30:27.829927+00:00 ip-172-31-27-232 su[29376]: (to root) root on pts/3
+2024-12-24T00:30:27.830437+00:00 ip-172-31-27-232 su[29376]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-12-24T00:35:01.456691+00:00 ip-172-31-27-232 CRON[29396]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T00:35:01.459047+00:00 ip-172-31-27-232 CRON[29396]: pam_unix(cron:session): session closed for user root
+2024-12-24T00:45:01.464500+00:00 ip-172-31-27-232 CRON[29423]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T00:45:01.466629+00:00 ip-172-31-27-232 CRON[29423]: pam_unix(cron:session): session closed for user root
+2024-12-24T00:55:01.471892+00:00 ip-172-31-27-232 CRON[29448]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T00:55:01.474645+00:00 ip-172-31-27-232 CRON[29448]: pam_unix(cron:session): session closed for user root
+2024-12-24T01:01:56.156421+00:00 ip-172-31-27-232 sshd[29474]: Connection closed by 89.248.163.100 port 51976
+2024-12-24T01:05:01.480389+00:00 ip-172-31-27-232 CRON[29476]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T01:05:01.483710+00:00 ip-172-31-27-232 CRON[29476]: pam_unix(cron:session): session closed for user root
+2024-12-24T01:15:01.488610+00:00 ip-172-31-27-232 CRON[29489]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T01:15:01.490855+00:00 ip-172-31-27-232 CRON[29489]: pam_unix(cron:session): session closed for user root
+2024-12-24T01:17:01.494299+00:00 ip-172-31-27-232 CRON[29494]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T01:17:01.499152+00:00 ip-172-31-27-232 CRON[29494]: pam_unix(cron:session): session closed for user root
+2024-12-24T01:25:01.503487+00:00 ip-172-31-27-232 CRON[29505]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T01:25:01.507094+00:00 ip-172-31-27-232 CRON[29505]: pam_unix(cron:session): session closed for user root
+2024-12-24T01:34:53.525997+00:00 ip-172-31-27-232 sshd[29515]: Connection closed by 147.135.23.98 port 44207
+2024-12-24T01:35:01.512684+00:00 ip-172-31-27-232 CRON[29516]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T01:35:01.515151+00:00 ip-172-31-27-232 CRON[29516]: pam_unix(cron:session): session closed for user root
+2024-12-24T01:45:01.520794+00:00 ip-172-31-27-232 CRON[29525]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T01:45:01.523808+00:00 ip-172-31-27-232 CRON[29525]: pam_unix(cron:session): session closed for user root
+2024-12-24T01:53:36.400847+00:00 ip-172-31-27-232 systemd-logind[658]: The system will power off now!
+2024-12-24T01:53:36.424644+00:00 ip-172-31-27-232 systemd-logind[658]: System is powering down.
+2024-12-24T01:53:36.437417+00:00 ip-172-31-27-232 su[1591]: pam_unix(su:session): session closed for user root
+2024-12-24T01:53:36.438411+00:00 ip-172-31-27-232 sshd[1084]: pam_unix(sshd:session): session closed for user ubuntu
+2024-12-24T01:53:36.440074+00:00 ip-172-31-27-232 su[29376]: pam_unix(su:session): session closed for user root
+2024-12-24T01:53:36.441303+00:00 ip-172-31-27-232 sshd[29263]: pam_unix(sshd:session): session closed for user ubuntu
+2024-12-24T23:31:57.564625+00:00 ip-172-31-27-232 systemd-logind[553]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-12-24T23:31:57.564628+00:00 ip-172-31-27-232 systemd-logind[553]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-12-24T23:31:57.564633+00:00 ip-172-31-27-232 systemd-logind[553]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-12-24T23:31:57.564636+00:00 ip-172-31-27-232 systemd-logind[553]: New seat seat0.
+2024-12-24T23:31:57.564710+00:00 ip-172-31-27-232 polkitd[534]: Loading rules from directory /etc/polkit-1/rules.d
+2024-12-24T23:31:57.564713+00:00 ip-172-31-27-232 polkitd[534]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-12-24T23:31:57.564733+00:00 ip-172-31-27-232 polkitd[534]: Finished loading, compiling and executing 6 rules
+2024-12-24T23:31:57.564740+00:00 ip-172-31-27-232 polkitd[534]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-12-24T23:33:35.949861+00:00 ip-172-31-27-232 sshd[884]: Server listening on :: port 22.
+2024-12-24T23:33:37.098914+00:00 ip-172-31-27-232 sshd[885]: Connection closed by authenticating user root 170.64.176.163 port 55664 [preauth]
+2024-12-24T23:33:38.487920+00:00 ip-172-31-27-232 sshd[887]: Connection closed by authenticating user root 170.64.176.163 port 55680 [preauth]
+2024-12-24T23:33:39.814607+00:00 ip-172-31-27-232 sshd[889]: Connection closed by authenticating user root 170.64.176.163 port 56288 [preauth]
+2024-12-24T23:33:41.713989+00:00 ip-172-31-27-232 sshd[891]: Connection closed by authenticating user root 170.64.176.163 port 56296 [preauth]
+2024-12-24T23:34:10.590502+00:00 ip-172-31-27-232 sshd[893]: Connection closed by authenticating user root 170.64.176.163 port 56300 [preauth]
+2024-12-24T23:34:11.902693+00:00 ip-172-31-27-232 sshd[895]: Connection closed by authenticating user root 170.64.176.163 port 47808 [preauth]
+2024-12-24T23:34:13.193358+00:00 ip-172-31-27-232 sshd[897]: Connection closed by authenticating user root 170.64.176.163 port 47818 [preauth]
+2024-12-24T23:34:14.481610+00:00 ip-172-31-27-232 sshd[899]: Connection closed by authenticating user root 170.64.176.163 port 47826 [preauth]
+2024-12-24T23:34:15.788697+00:00 ip-172-31-27-232 sshd[901]: Connection closed by authenticating user root 170.64.176.163 port 47830 [preauth]
+2024-12-24T23:34:46.004706+00:00 ip-172-31-27-232 sshd[903]: Connection closed by authenticating user root 170.64.176.163 port 47832 [preauth]
+2024-12-24T23:34:47.328427+00:00 ip-172-31-27-232 sshd[905]: Connection closed by authenticating user root 170.64.176.163 port 36514 [preauth]
+2024-12-24T23:34:48.635097+00:00 ip-172-31-27-232 sshd[907]: Connection closed by authenticating user root 170.64.176.163 port 60786 [preauth]
+2024-12-24T23:34:49.951531+00:00 ip-172-31-27-232 sshd[909]: Connection closed by authenticating user root 170.64.176.163 port 60792 [preauth]
+2024-12-24T23:34:51.828680+00:00 ip-172-31-27-232 sshd[911]: Connection closed by authenticating user root 170.64.176.163 port 60798 [preauth]
+2024-12-24T23:34:54.380511+00:00 ip-172-31-27-232 sshd[913]: Connection closed by authenticating user root 170.64.176.163 port 60804 [preauth]
+2024-12-24T23:35:01.827518+00:00 ip-172-31-27-232 CRON[916]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T23:35:01.832703+00:00 ip-172-31-27-232 CRON[916]: pam_unix(cron:session): session closed for user root
+2024-12-24T23:35:17.240121+00:00 ip-172-31-27-232 sshd[915]: Connection closed by authenticating user root 170.64.176.163 port 60808 [preauth]
+2024-12-24T23:35:20.416891+00:00 ip-172-31-27-232 sshd[920]: Connection closed by authenticating user root 170.64.176.163 port 43452 [preauth]
+2024-12-24T23:35:21.863849+00:00 ip-172-31-27-232 sshd[922]: Connection closed by authenticating user root 170.64.176.163 port 43460 [preauth]
+2024-12-24T23:35:23.167047+00:00 ip-172-31-27-232 sshd[924]: Connection closed by authenticating user root 170.64.176.163 port 43476 [preauth]
+2024-12-24T23:35:24.454632+00:00 ip-172-31-27-232 sshd[926]: Connection closed by authenticating user root 170.64.176.163 port 43490 [preauth]
+2024-12-24T23:35:25.807128+00:00 ip-172-31-27-232 sshd[928]: Connection closed by authenticating user root 170.64.176.163 port 43492 [preauth]
+2024-12-24T23:35:34.028893+00:00 ip-172-31-27-232 sshd[930]: Connection closed by authenticating user root 170.64.176.163 port 43504 [preauth]
+2024-12-24T23:35:55.408227+00:00 ip-172-31-27-232 sshd[932]: error: kex_exchange_identification: read: Connection reset by peer
+2024-12-24T23:35:55.408494+00:00 ip-172-31-27-232 sshd[932]: Connection reset by 170.64.176.163 port 36332
+2024-12-24T23:45:01.838752+00:00 ip-172-31-27-232 CRON[1049]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T23:45:01.842428+00:00 ip-172-31-27-232 CRON[1049]: pam_unix(cron:session): session closed for user root
+2024-12-24T23:50:01.378001+00:00 ip-172-31-27-232 polkitd[5892]: Loading rules from directory /etc/polkit-1/rules.d
+2024-12-24T23:50:01.378829+00:00 ip-172-31-27-232 polkitd[5892]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-12-24T23:50:01.381051+00:00 ip-172-31-27-232 polkitd[5892]: Finished loading, compiling and executing 6 rules
+2024-12-24T23:50:01.381734+00:00 ip-172-31-27-232 polkitd[5892]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-12-24T23:55:01.846656+00:00 ip-172-31-27-232 CRON[10388]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T23:55:01.850215+00:00 ip-172-31-27-232 CRON[10388]: pam_unix(cron:session): session closed for user root
+2024-12-24T23:59:01.854002+00:00 ip-172-31-27-232 CRON[10395]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-24T23:59:01.856873+00:00 ip-172-31-27-232 CRON[10395]: pam_unix(cron:session): session closed for user root
+2024-12-25T00:05:01.859979+00:00 ip-172-31-27-232 CRON[10473]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T00:05:01.863308+00:00 ip-172-31-27-232 CRON[10473]: pam_unix(cron:session): session closed for user root
+2024-12-25T00:15:01.868371+00:00 ip-172-31-27-232 CRON[10509]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T00:15:01.870920+00:00 ip-172-31-27-232 CRON[10509]: pam_unix(cron:session): session closed for user root
+2024-12-25T00:17:01.874921+00:00 ip-172-31-27-232 CRON[10512]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T00:17:01.878429+00:00 ip-172-31-27-232 CRON[10512]: pam_unix(cron:session): session closed for user root
+2024-12-25T00:24:10.586376+00:00 ip-172-31-27-232 sshd[10524]: Connection closed by 3.17.206.73 port 33338
+2024-12-25T00:25:01.883139+00:00 ip-172-31-27-232 CRON[10526]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T00:25:01.888077+00:00 ip-172-31-27-232 CRON[10526]: pam_unix(cron:session): session closed for user root
+2024-12-25T00:35:01.892676+00:00 ip-172-31-27-232 CRON[10536]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T00:35:01.894885+00:00 ip-172-31-27-232 CRON[10536]: pam_unix(cron:session): session closed for user root
+2024-12-25T00:45:01.901287+00:00 ip-172-31-27-232 CRON[10544]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T00:45:01.903802+00:00 ip-172-31-27-232 CRON[10544]: pam_unix(cron:session): session closed for user root
+2024-12-25T00:46:45.146958+00:00 ip-172-31-27-232 sshd[10548]: Connection closed by 47.93.81.231 port 59058
+2024-12-25T00:55:01.908986+00:00 ip-172-31-27-232 CRON[10556]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T00:55:01.912890+00:00 ip-172-31-27-232 CRON[10556]: pam_unix(cron:session): session closed for user root
+2024-12-25T01:05:01.917328+00:00 ip-172-31-27-232 CRON[10565]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T01:05:01.919569+00:00 ip-172-31-27-232 CRON[10565]: pam_unix(cron:session): session closed for user root
+2024-12-25T01:15:01.925158+00:00 ip-172-31-27-232 CRON[10575]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T01:15:01.927783+00:00 ip-172-31-27-232 CRON[10575]: pam_unix(cron:session): session closed for user root
+2024-12-25T01:17:01.931218+00:00 ip-172-31-27-232 CRON[10579]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T01:17:01.935127+00:00 ip-172-31-27-232 CRON[10579]: pam_unix(cron:session): session closed for user root
+2024-12-25T01:25:01.939745+00:00 ip-172-31-27-232 CRON[10588]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T01:25:01.944225+00:00 ip-172-31-27-232 CRON[10588]: pam_unix(cron:session): session closed for user root
+2024-12-25T01:35:01.948798+00:00 ip-172-31-27-232 CRON[10598]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T01:35:01.951119+00:00 ip-172-31-27-232 CRON[10598]: pam_unix(cron:session): session closed for user root
+2024-12-25T01:45:01.957419+00:00 ip-172-31-27-232 CRON[10607]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T01:45:01.959941+00:00 ip-172-31-27-232 CRON[10607]: pam_unix(cron:session): session closed for user root
+2024-12-25T01:55:01.965479+00:00 ip-172-31-27-232 CRON[10634]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T01:55:01.969131+00:00 ip-172-31-27-232 CRON[10634]: pam_unix(cron:session): session closed for user root
+2024-12-25T02:05:01.973978+00:00 ip-172-31-27-232 CRON[10644]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T02:05:01.976101+00:00 ip-172-31-27-232 CRON[10644]: pam_unix(cron:session): session closed for user root
+2024-12-25T02:15:01.982157+00:00 ip-172-31-27-232 CRON[10653]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T02:15:01.984987+00:00 ip-172-31-27-232 CRON[10653]: pam_unix(cron:session): session closed for user root
+2024-12-25T02:17:01.989050+00:00 ip-172-31-27-232 CRON[10657]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T02:17:01.993721+00:00 ip-172-31-27-232 CRON[10657]: pam_unix(cron:session): session closed for user root
+2024-12-25T02:19:50.111245+00:00 ip-172-31-27-232 sshd[10660]: Connection closed by 147.185.132.111 port 51243
+2024-12-25T02:25:01.996737+00:00 ip-172-31-27-232 CRON[10668]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T02:25:02.000432+00:00 ip-172-31-27-232 CRON[10668]: pam_unix(cron:session): session closed for user root
+2024-12-25T02:35:01.004785+00:00 ip-172-31-27-232 CRON[10690]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T02:35:01.008081+00:00 ip-172-31-27-232 CRON[10690]: pam_unix(cron:session): session closed for user root
+2024-12-25T02:45:01.013159+00:00 ip-172-31-27-232 CRON[10703]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T02:45:01.017171+00:00 ip-172-31-27-232 CRON[10703]: pam_unix(cron:session): session closed for user root
+2024-12-25T02:55:01.020491+00:00 ip-172-31-27-232 CRON[10712]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T02:55:01.022341+00:00 ip-172-31-27-232 CRON[10712]: pam_unix(cron:session): session closed for user root
+2024-12-25T03:05:01.027913+00:00 ip-172-31-27-232 CRON[10722]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T03:05:01.031170+00:00 ip-172-31-27-232 CRON[10722]: pam_unix(cron:session): session closed for user root
+2024-12-25T03:09:26.983474+00:00 ip-172-31-27-232 sshd[10726]: banner exchange: Connection from 13.91.42.239 port 52422: invalid format
+2024-12-25T03:10:01.034987+00:00 ip-172-31-27-232 CRON[10727]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T03:10:01.036810+00:00 ip-172-31-27-232 CRON[10727]: pam_unix(cron:session): session closed for user root
+2024-12-25T03:15:01.040226+00:00 ip-172-31-27-232 CRON[10735]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T03:15:01.042964+00:00 ip-172-31-27-232 CRON[10735]: pam_unix(cron:session): session closed for user root
+2024-12-25T03:17:01.046490+00:00 ip-172-31-27-232 CRON[10738]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T03:17:01.048868+00:00 ip-172-31-27-232 CRON[10738]: pam_unix(cron:session): session closed for user root
+2024-12-25T03:25:01.053381+00:00 ip-172-31-27-232 CRON[10747]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T03:25:01.056315+00:00 ip-172-31-27-232 CRON[10747]: pam_unix(cron:session): session closed for user root
+2024-12-25T03:31:52.174618+00:00 ip-172-31-27-232 systemd-logind[553]: The system will power off now!
+2024-12-25T03:31:52.199371+00:00 ip-172-31-27-232 systemd-logind[553]: System is powering down.
+2024-12-25T13:02:05.031863+00:00 ip-172-31-27-232 systemd-logind[544]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-12-25T13:02:05.031866+00:00 ip-172-31-27-232 systemd-logind[544]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-12-25T13:02:05.031868+00:00 ip-172-31-27-232 systemd-logind[544]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-12-25T13:02:05.031876+00:00 ip-172-31-27-232 systemd-logind[544]: New seat seat0.
+2024-12-25T13:02:05.031939+00:00 ip-172-31-27-232 polkitd[536]: Loading rules from directory /etc/polkit-1/rules.d
+2024-12-25T13:02:05.031943+00:00 ip-172-31-27-232 polkitd[536]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-12-25T13:02:04.953702+00:00 ip-172-31-27-232 polkitd[536]: Finished loading, compiling and executing 6 rules
+2024-12-25T13:02:04.956116+00:00 ip-172-31-27-232 polkitd[536]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-12-25T13:03:12.406715+00:00 ip-172-31-27-232 sshd[847]: Server listening on :: port 22.
+2024-12-25T13:03:13.956432+00:00 ip-172-31-27-232 ec2-instance-connect[979]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:rH8Yl2p2A5dm4mP+AaWjy7ImfWc5RMsSHOtseDDwI3E
+2024-12-25T13:03:13.992710+00:00 ip-172-31-27-232 ec2-instance-connect[1011]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:rH8Yl2p2A5dm4mP+AaWjy7ImfWc5RMsSHOtseDDwI3E, request-id: c690ec19-ce09-419a-a641-ed71fd3f6e43, for IAM principal: arn:aws:sts::624979103661:assumed-role/voclabs/user3724648=Estudiante_de_prueba
+2024-12-25T13:03:15.395750+00:00 ip-172-31-27-232 ec2-instance-connect[1150]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:rH8Yl2p2A5dm4mP+AaWjy7ImfWc5RMsSHOtseDDwI3E
+2024-12-25T13:03:15.426067+00:00 ip-172-31-27-232 ec2-instance-connect[1182]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:rH8Yl2p2A5dm4mP+AaWjy7ImfWc5RMsSHOtseDDwI3E, request-id: c690ec19-ce09-419a-a641-ed71fd3f6e43, for IAM principal: arn:aws:sts::624979103661:assumed-role/voclabs/user3724648=Estudiante_de_prueba
+2024-12-25T13:03:16.140700+00:00 ip-172-31-27-232 sshd[848]: Accepted publickey for ubuntu from 18.206.107.29 port 41033 ssh2: ED25519 SHA256:rH8Yl2p2A5dm4mP+AaWjy7ImfWc5RMsSHOtseDDwI3E
+2024-12-25T13:03:16.143905+00:00 ip-172-31-27-232 sshd[848]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T13:03:16.175487+00:00 ip-172-31-27-232 systemd-logind[544]: New session 1 of user ubuntu.
+2024-12-25T13:03:16.193927+00:00 ip-172-31-27-232 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T13:03:21.185803+00:00 ip-172-31-27-232 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su
+2024-12-25T13:03:21.186482+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-12-25T13:03:21.192602+00:00 ip-172-31-27-232 su[1353]: (to root) root on pts/1
+2024-12-25T13:03:21.192866+00:00 ip-172-31-27-232 su[1353]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-12-25T13:03:58.968047+00:00 ip-172-31-27-232 groupadd[1642]: group added to /etc/group: name=ssl-cert, GID=113
+2024-12-25T13:03:58.976734+00:00 ip-172-31-27-232 groupadd[1642]: group added to /etc/gshadow: name=ssl-cert
+2024-12-25T13:03:58.978615+00:00 ip-172-31-27-232 groupadd[1642]: new group: name=ssl-cert, GID=113
+2024-12-25T13:04:28.957358+00:00 ip-172-31-27-232 passwd[2373]: pam_unix(passwd:chauthtok): password changed for ubuntu
+2024-12-25T13:05:01.376979+00:00 ip-172-31-27-232 CRON[2376]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T13:05:01.380550+00:00 ip-172-31-27-232 CRON[2376]: pam_unix(cron:session): session closed for user root
+2024-12-25T13:05:08.666012+00:00 ip-172-31-27-232 sshd[847]: Received signal 15; terminating.
+2024-12-25T13:05:08.692703+00:00 ip-172-31-27-232 sshd[2382]: Server listening on :: port 22.
+2024-12-25T13:07:13.731848+00:00 ip-172-31-27-232 systemd-logind[544]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-12-25T13:07:13.732542+00:00 ip-172-31-27-232 systemd-logind[544]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-12-25T13:07:13.735042+00:00 ip-172-31-27-232 systemd-logind[544]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-12-25T13:08:29.695139+00:00 ip-172-31-27-232 sshd[2642]: Accepted publickey for ubuntu from 181.42.43.32 port 19720 ssh2: RSA SHA256:PuvCit2H3kdHlZfM+3lYC9nIeHog/JGNez001l2LJzE
+2024-12-25T13:08:29.697971+00:00 ip-172-31-27-232 sshd[2642]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T13:08:29.702799+00:00 ip-172-31-27-232 systemd-logind[544]: New session 4 of user ubuntu.
+2024-12-25T13:08:34.345215+00:00 ip-172-31-27-232 sshd[2642]: pam_unix(sshd:session): session closed for user ubuntu
+2024-12-25T13:08:34.347559+00:00 ip-172-31-27-232 systemd-logind[544]: Session 4 logged out. Waiting for processes to exit.
+2024-12-25T13:08:34.348104+00:00 ip-172-31-27-232 systemd-logind[544]: Removed session 4.
+2024-12-25T13:10:37.774327+00:00 ip-172-31-27-232 sshd[2727]: Accepted publickey for ubuntu from 181.42.43.32 port 19824 ssh2: RSA SHA256:PuvCit2H3kdHlZfM+3lYC9nIeHog/JGNez001l2LJzE
+2024-12-25T13:10:37.776132+00:00 ip-172-31-27-232 sshd[2727]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T13:10:37.781621+00:00 ip-172-31-27-232 systemd-logind[544]: New session 5 of user ubuntu.
+2024-12-25T13:10:41.185082+00:00 ip-172-31-27-232 sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su
+2024-12-25T13:10:41.185508+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-12-25T13:10:41.189357+00:00 ip-172-31-27-232 su[2794]: (to root) root on pts/3
+2024-12-25T13:10:41.189561+00:00 ip-172-31-27-232 su[2794]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-12-25T13:15:01.386158+00:00 ip-172-31-27-232 CRON[2853]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T13:15:01.389460+00:00 ip-172-31-27-232 CRON[2853]: pam_unix(cron:session): session closed for user root
+2024-12-25T13:16:59.595147+00:00 ip-172-31-27-232 sshd[2858]: Invalid user usuario from 181.42.43.32 port 19778
+2024-12-25T13:16:59.798801+00:00 ip-172-31-27-232 sshd[2858]: Received disconnect from 181.42.43.32 port 19778:11: Bye Bye [preauth]
+2024-12-25T13:16:59.798887+00:00 ip-172-31-27-232 sshd[2858]: Disconnected from invalid user usuario 181.42.43.32 port 19778 [preauth]
+2024-12-25T13:17:00.328224+00:00 ip-172-31-27-232 sshd[2382]: error: beginning MaxStartups throttling
+2024-12-25T13:17:00.328313+00:00 ip-172-31-27-232 sshd[2382]: drop connection #11 from [181.42.43.32]:19749 on [172.31.27.232]:22 past MaxStartups
+2024-12-25T13:17:01.392372+00:00 ip-172-31-27-232 CRON[2891]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T13:17:01.395723+00:00 ip-172-31-27-232 CRON[2891]: pam_unix(cron:session): session closed for user root
+2024-12-25T13:17:01.444186+00:00 ip-172-31-27-232 sshd[2867]: Invalid user usuario from 181.42.43.32 port 19747
+2024-12-25T13:17:01.444805+00:00 ip-172-31-27-232 sshd[2866]: Invalid user usuario from 181.42.43.32 port 19805
+2024-12-25T13:17:01.452067+00:00 ip-172-31-27-232 sshd[2865]: Invalid user usuario from 181.42.43.32 port 19801
+2024-12-25T13:17:01.456450+00:00 ip-172-31-27-232 sshd[2885]: Invalid user usuario from 181.42.43.32 port 19752
+2024-12-25T13:17:01.456851+00:00 ip-172-31-27-232 sshd[2868]: Invalid user usuario from 181.42.43.32 port 19803
+2024-12-25T13:17:01.456986+00:00 ip-172-31-27-232 sshd[2871]: Invalid user usuario from 181.42.43.32 port 19808
+2024-12-25T13:17:01.460883+00:00 ip-172-31-27-232 sshd[2873]: Invalid user usuario from 181.42.43.32 port 19750
+2024-12-25T13:17:01.648305+00:00 ip-172-31-27-232 sshd[2867]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:01.648419+00:00 ip-172-31-27-232 sshd[2867]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:01.650850+00:00 ip-172-31-27-232 sshd[2869]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:01.651481+00:00 ip-172-31-27-232 sshd[2886]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:01.651624+00:00 ip-172-31-27-232 sshd[2875]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:01.652095+00:00 ip-172-31-27-232 sshd[2874]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:01.652679+00:00 ip-172-31-27-232 sshd[2866]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:01.652722+00:00 ip-172-31-27-232 sshd[2866]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:01.653220+00:00 ip-172-31-27-232 sshd[2865]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:01.653323+00:00 ip-172-31-27-232 sshd[2865]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:01.656141+00:00 ip-172-31-27-232 sshd[2868]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:01.656460+00:00 ip-172-31-27-232 sshd[2868]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:01.656709+00:00 ip-172-31-27-232 sshd[2885]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:01.656746+00:00 ip-172-31-27-232 sshd[2885]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:01.656885+00:00 ip-172-31-27-232 sshd[2887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:01.656916+00:00 ip-172-31-27-232 sshd[2871]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:01.656940+00:00 ip-172-31-27-232 sshd[2871]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:01.657408+00:00 ip-172-31-27-232 sshd[2873]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:01.657445+00:00 ip-172-31-27-232 sshd[2873]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:02.028807+00:00 ip-172-31-27-232 sshd[2864]: Invalid user usuario from 181.42.43.32 port 19739
+2024-12-25T13:17:02.198625+00:00 ip-172-31-27-232 sshd[2864]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:02.198753+00:00 ip-172-31-27-232 sshd[2864]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:02.205010+00:00 ip-172-31-27-232 sshd[2863]: Invalid user usuario from 181.42.43.32 port 19737
+2024-12-25T13:17:02.368464+00:00 ip-172-31-27-232 sshd[2863]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:02.368536+00:00 ip-172-31-27-232 sshd[2863]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:03.612894+00:00 ip-172-31-27-232 sshd[2867]: Failed password for invalid user usuario from 181.42.43.32 port 19747 ssh2
+2024-12-25T13:17:03.614907+00:00 ip-172-31-27-232 sshd[2869]: Failed password for root from 181.42.43.32 port 19813 ssh2
+2024-12-25T13:17:03.615115+00:00 ip-172-31-27-232 sshd[2886]: Failed password for root from 181.42.43.32 port 19753 ssh2
+2024-12-25T13:17:03.615853+00:00 ip-172-31-27-232 sshd[2874]: Failed password for root from 181.42.43.32 port 19754 ssh2
+2024-12-25T13:17:03.616881+00:00 ip-172-31-27-232 sshd[2875]: Failed password for root from 181.42.43.32 port 19809 ssh2
+2024-12-25T13:17:03.617080+00:00 ip-172-31-27-232 sshd[2865]: Failed password for invalid user usuario from 181.42.43.32 port 19801 ssh2
+2024-12-25T13:17:03.617329+00:00 ip-172-31-27-232 sshd[2866]: Failed password for invalid user usuario from 181.42.43.32 port 19805 ssh2
+2024-12-25T13:17:03.619878+00:00 ip-172-31-27-232 sshd[2868]: Failed password for invalid user usuario from 181.42.43.32 port 19803 ssh2
+2024-12-25T13:17:03.620798+00:00 ip-172-31-27-232 sshd[2887]: Failed password for root from 181.42.43.32 port 19811 ssh2
+2024-12-25T13:17:03.620914+00:00 ip-172-31-27-232 sshd[2871]: Failed password for invalid user usuario from 181.42.43.32 port 19808 ssh2
+2024-12-25T13:17:03.621017+00:00 ip-172-31-27-232 sshd[2885]: Failed password for invalid user usuario from 181.42.43.32 port 19752 ssh2
+2024-12-25T13:17:03.621820+00:00 ip-172-31-27-232 sshd[2873]: Failed password for invalid user usuario from 181.42.43.32 port 19750 ssh2
+2024-12-25T13:17:03.917316+00:00 ip-172-31-27-232 sshd[2887]: Received disconnect from 181.42.43.32 port 19811:11: Bye Bye [preauth]
+2024-12-25T13:17:03.917391+00:00 ip-172-31-27-232 sshd[2887]: Disconnected from authenticating user root 181.42.43.32 port 19811 [preauth]
+2024-12-25T13:17:04.299350+00:00 ip-172-31-27-232 sshd[2864]: Failed password for invalid user usuario from 181.42.43.32 port 19739 ssh2
+2024-12-25T13:17:04.468864+00:00 ip-172-31-27-232 sshd[2863]: Failed password for invalid user usuario from 181.42.43.32 port 19737 ssh2
+2024-12-25T13:17:05.141054+00:00 ip-172-31-27-232 sshd[2886]: Failed password for root from 181.42.43.32 port 19753 ssh2
+2024-12-25T13:17:05.145148+00:00 ip-172-31-27-232 sshd[2869]: Failed password for root from 181.42.43.32 port 19813 ssh2
+2024-12-25T13:17:05.147854+00:00 ip-172-31-27-232 sshd[2874]: Failed password for root from 181.42.43.32 port 19754 ssh2
+2024-12-25T13:17:05.148853+00:00 ip-172-31-27-232 sshd[2875]: Failed password for root from 181.42.43.32 port 19809 ssh2
+2024-12-25T13:17:12.177601+00:00 ip-172-31-27-232 sshd[2873]: Received disconnect from 181.42.43.32 port 19750:11: Bye Bye [preauth]
+2024-12-25T13:17:12.177707+00:00 ip-172-31-27-232 sshd[2873]: Disconnected from invalid user usuario 181.42.43.32 port 19750 [preauth]
+2024-12-25T13:17:12.190922+00:00 ip-172-31-27-232 sshd[2864]: Received disconnect from 181.42.43.32 port 19739:11: Bye Bye [preauth]
+2024-12-25T13:17:12.190989+00:00 ip-172-31-27-232 sshd[2864]: Disconnected from invalid user usuario 181.42.43.32 port 19739 [preauth]
+2024-12-25T13:17:12.191410+00:00 ip-172-31-27-232 sshd[2885]: Received disconnect from 181.42.43.32 port 19752:11: Bye Bye [preauth]
+2024-12-25T13:17:12.191456+00:00 ip-172-31-27-232 sshd[2885]: Disconnected from invalid user usuario 181.42.43.32 port 19752 [preauth]
+2024-12-25T13:17:12.817404+00:00 ip-172-31-27-232 sshd[2863]: Received disconnect from 181.42.43.32 port 19737:11: Bye Bye [preauth]
+2024-12-25T13:17:12.817485+00:00 ip-172-31-27-232 sshd[2863]: Disconnected from invalid user usuario 181.42.43.32 port 19737 [preauth]
+2024-12-25T13:17:13.460160+00:00 ip-172-31-27-232 sshd[2896]: Invalid user user from 181.42.43.32 port 19756
+2024-12-25T13:17:13.466701+00:00 ip-172-31-27-232 sshd[2894]: Invalid user user from 181.42.43.32 port 19745
+2024-12-25T13:17:13.468421+00:00 ip-172-31-27-232 sshd[2897]: Invalid user user from 181.42.43.32 port 19782
+2024-12-25T13:17:13.643868+00:00 ip-172-31-27-232 sshd[2886]: Received disconnect from 181.42.43.32 port 19753:11: Bye Bye [preauth]
+2024-12-25T13:17:13.644211+00:00 ip-172-31-27-232 sshd[2886]: Disconnected from authenticating user root 181.42.43.32 port 19753 [preauth]
+2024-12-25T13:17:13.644255+00:00 ip-172-31-27-232 sshd[2886]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:13.644284+00:00 ip-172-31-27-232 sshd[2896]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:13.644321+00:00 ip-172-31-27-232 sshd[2896]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:13.647499+00:00 ip-172-31-27-232 sshd[2894]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:13.647554+00:00 ip-172-31-27-232 sshd[2894]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:13.647581+00:00 ip-172-31-27-232 sshd[2897]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:13.647604+00:00 ip-172-31-27-232 sshd[2897]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:13.838232+00:00 ip-172-31-27-232 sshd[2869]: Received disconnect from 181.42.43.32 port 19813:11: Bye Bye [preauth]
+2024-12-25T13:17:13.838325+00:00 ip-172-31-27-232 sshd[2869]: Disconnected from authenticating user root 181.42.43.32 port 19813 [preauth]
+2024-12-25T13:17:13.838355+00:00 ip-172-31-27-232 sshd[2869]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:13.851465+00:00 ip-172-31-27-232 sshd[2875]: Received disconnect from 181.42.43.32 port 19809:11: Bye Bye [preauth]
+2024-12-25T13:17:13.851556+00:00 ip-172-31-27-232 sshd[2875]: Disconnected from authenticating user root 181.42.43.32 port 19809 [preauth]
+2024-12-25T13:17:13.851733+00:00 ip-172-31-27-232 sshd[2875]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:13.864607+00:00 ip-172-31-27-232 sshd[2874]: Received disconnect from 181.42.43.32 port 19754:11: Bye Bye [preauth]
+2024-12-25T13:17:13.864684+00:00 ip-172-31-27-232 sshd[2874]: Disconnected from authenticating user root 181.42.43.32 port 19754 [preauth]
+2024-12-25T13:17:13.864713+00:00 ip-172-31-27-232 sshd[2874]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32  user=root
+2024-12-25T13:17:14.342499+00:00 ip-172-31-27-232 sshd[2900]: Invalid user user from 181.42.43.32 port 19755
+2024-12-25T13:17:14.544437+00:00 ip-172-31-27-232 sshd[2900]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:14.544514+00:00 ip-172-31-27-232 sshd[2900]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:14.879538+00:00 ip-172-31-27-232 sshd[2902]: Invalid user user from 181.42.43.32 port 19819
+2024-12-25T13:17:14.879756+00:00 ip-172-31-27-232 sshd[2904]: Invalid user user from 181.42.43.32 port 19820
+2024-12-25T13:17:15.059788+00:00 ip-172-31-27-232 sshd[2906]: Invalid user user from 181.42.43.32 port 19826
+2024-12-25T13:17:15.065066+00:00 ip-172-31-27-232 sshd[2902]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:15.065140+00:00 ip-172-31-27-232 sshd[2902]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:15.067196+00:00 ip-172-31-27-232 sshd[2904]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:15.067242+00:00 ip-172-31-27-232 sshd[2904]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:15.068770+00:00 ip-172-31-27-232 sshd[2908]: Invalid user user from 181.42.43.32 port 19827
+2024-12-25T13:17:15.222792+00:00 ip-172-31-27-232 sshd[2906]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:15.222868+00:00 ip-172-31-27-232 sshd[2906]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:15.273345+00:00 ip-172-31-27-232 sshd[2908]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:15.273420+00:00 ip-172-31-27-232 sshd[2908]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:15.588276+00:00 ip-172-31-27-232 sshd[2896]: Failed password for invalid user user from 181.42.43.32 port 19756 ssh2
+2024-12-25T13:17:15.590873+00:00 ip-172-31-27-232 sshd[2894]: Failed password for invalid user user from 181.42.43.32 port 19745 ssh2
+2024-12-25T13:17:15.592024+00:00 ip-172-31-27-232 sshd[2897]: Failed password for invalid user user from 181.42.43.32 port 19782 ssh2
+2024-12-25T13:17:15.883198+00:00 ip-172-31-27-232 sshd[2897]: Received disconnect from 181.42.43.32 port 19782:11: Bye Bye [preauth]
+2024-12-25T13:17:15.883304+00:00 ip-172-31-27-232 sshd[2897]: Disconnected from invalid user user 181.42.43.32 port 19782 [preauth]
+2024-12-25T13:17:15.887884+00:00 ip-172-31-27-232 sshd[2894]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:15.887940+00:00 ip-172-31-27-232 sshd[2896]: Received disconnect from 181.42.43.32 port 19756:11: Bye Bye [preauth]
+2024-12-25T13:17:15.887968+00:00 ip-172-31-27-232 sshd[2896]: Disconnected from invalid user user 181.42.43.32 port 19756 [preauth]
+2024-12-25T13:17:16.624925+00:00 ip-172-31-27-232 sshd[2900]: Failed password for invalid user user from 181.42.43.32 port 19755 ssh2
+2024-12-25T13:17:16.904891+00:00 ip-172-31-27-232 sshd[2910]: Invalid user user from 181.42.43.32 port 19830
+2024-12-25T13:17:16.949709+00:00 ip-172-31-27-232 sshd[2902]: Failed password for invalid user user from 181.42.43.32 port 19819 ssh2
+2024-12-25T13:17:16.950892+00:00 ip-172-31-27-232 sshd[2904]: Failed password for invalid user user from 181.42.43.32 port 19820 ssh2
+2024-12-25T13:17:17.104883+00:00 ip-172-31-27-232 sshd[2913]: Invalid user admin from 181.42.43.32 port 19765
+2024-12-25T13:17:17.106423+00:00 ip-172-31-27-232 sshd[2912]: Invalid user admin from 181.42.43.32 port 19831
+2024-12-25T13:17:17.107817+00:00 ip-172-31-27-232 sshd[2906]: Failed password for invalid user user from 181.42.43.32 port 19826 ssh2
+2024-12-25T13:17:17.108139+00:00 ip-172-31-27-232 sshd[2910]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:17.108433+00:00 ip-172-31-27-232 sshd[2910]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:17.158070+00:00 ip-172-31-27-232 sshd[2908]: Failed password for invalid user user from 181.42.43.32 port 19827 ssh2
+2024-12-25T13:17:17.268836+00:00 ip-172-31-27-232 sshd[2904]: Received disconnect from 181.42.43.32 port 19820:11: Bye Bye [preauth]
+2024-12-25T13:17:17.268922+00:00 ip-172-31-27-232 sshd[2902]: Received disconnect from 181.42.43.32 port 19819:11: Bye Bye [preauth]
+2024-12-25T13:17:17.268953+00:00 ip-172-31-27-232 sshd[2904]: Disconnected from invalid user user 181.42.43.32 port 19820 [preauth]
+2024-12-25T13:17:17.268978+00:00 ip-172-31-27-232 sshd[2902]: Disconnected from invalid user user 181.42.43.32 port 19819 [preauth]
+2024-12-25T13:17:17.278868+00:00 ip-172-31-27-232 sshd[2913]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:17.278923+00:00 ip-172-31-27-232 sshd[2913]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:17.279080+00:00 ip-172-31-27-232 sshd[2912]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:17.279127+00:00 ip-172-31-27-232 sshd[2912]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:17.532974+00:00 ip-172-31-27-232 sshd[2906]: Received disconnect from 181.42.43.32 port 19826:11: Bye Bye [preauth]
+2024-12-25T13:17:17.533170+00:00 ip-172-31-27-232 sshd[2906]: Disconnected from invalid user user 181.42.43.32 port 19826 [preauth]
+2024-12-25T13:17:17.536293+00:00 ip-172-31-27-232 sshd[2908]: Received disconnect from 181.42.43.32 port 19827:11: Bye Bye [preauth]
+2024-12-25T13:17:17.536371+00:00 ip-172-31-27-232 sshd[2908]: Disconnected from invalid user user 181.42.43.32 port 19827 [preauth]
+2024-12-25T13:17:17.772528+00:00 ip-172-31-27-232 sshd[2894]: Failed password for invalid user user from 181.42.43.32 port 19745 ssh2
+2024-12-25T13:17:18.133951+00:00 ip-172-31-27-232 sshd[2894]: Received disconnect from 181.42.43.32 port 19745:11: Bye Bye [preauth]
+2024-12-25T13:17:18.134034+00:00 ip-172-31-27-232 sshd[2894]: Disconnected from invalid user user 181.42.43.32 port 19745 [preauth]
+2024-12-25T13:17:18.134710+00:00 ip-172-31-27-232 sshd[2894]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:18.547715+00:00 ip-172-31-27-232 sshd[2916]: Invalid user admin from 181.42.43.32 port 19767
+2024-12-25T13:17:18.548321+00:00 ip-172-31-27-232 sshd[2917]: Invalid user admin from 181.42.43.32 port 19832
+2024-12-25T13:17:18.715591+00:00 ip-172-31-27-232 sshd[2920]: Invalid user admin from 181.42.43.32 port 19834
+2024-12-25T13:17:18.718946+00:00 ip-172-31-27-232 sshd[2916]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:18.719057+00:00 ip-172-31-27-232 sshd[2916]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:18.722042+00:00 ip-172-31-27-232 sshd[2917]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:18.722124+00:00 ip-172-31-27-232 sshd[2917]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:18.722814+00:00 ip-172-31-27-232 sshd[2921]: Invalid user admin from 181.42.43.32 port 19774
+2024-12-25T13:17:18.723362+00:00 ip-172-31-27-232 sshd[2900]: Received disconnect from 181.42.43.32 port 19755:11: Bye Bye [preauth]
+2024-12-25T13:17:18.724102+00:00 ip-172-31-27-232 sshd[2900]: Disconnected from invalid user user 181.42.43.32 port 19755 [preauth]
+2024-12-25T13:17:18.955960+00:00 ip-172-31-27-232 sshd[2921]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:18.956064+00:00 ip-172-31-27-232 sshd[2921]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:18.956414+00:00 ip-172-31-27-232 sshd[2920]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:18.956471+00:00 ip-172-31-27-232 sshd[2920]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:19.359304+00:00 ip-172-31-27-232 sshd[2924]: Invalid user admin from 181.42.43.32 port 19775
+2024-12-25T13:17:19.568651+00:00 ip-172-31-27-232 sshd[2924]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:19.568740+00:00 ip-172-31-27-232 sshd[2924]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:19.600016+00:00 ip-172-31-27-232 sshd[2910]: Failed password for invalid user user from 181.42.43.32 port 19830 ssh2
+2024-12-25T13:17:19.771115+00:00 ip-172-31-27-232 sshd[2913]: Failed password for invalid user admin from 181.42.43.32 port 19765 ssh2
+2024-12-25T13:17:19.771316+00:00 ip-172-31-27-232 sshd[2912]: Failed password for invalid user admin from 181.42.43.32 port 19831 ssh2
+2024-12-25T13:17:19.779076+00:00 ip-172-31-27-232 sshd[2867]: Received disconnect from 181.42.43.32 port 19747:11: Bye Bye [preauth]
+2024-12-25T13:17:19.779134+00:00 ip-172-31-27-232 sshd[2867]: Disconnected from invalid user usuario 181.42.43.32 port 19747 [preauth]
+2024-12-25T13:17:19.779234+00:00 ip-172-31-27-232 sshd[2865]: Received disconnect from 181.42.43.32 port 19801:11: Bye Bye [preauth]
+2024-12-25T13:17:19.779290+00:00 ip-172-31-27-232 sshd[2865]: Disconnected from invalid user usuario 181.42.43.32 port 19801 [preauth]
+2024-12-25T13:17:19.781222+00:00 ip-172-31-27-232 sshd[2866]: Received disconnect from 181.42.43.32 port 19805:11: Bye Bye [preauth]
+2024-12-25T13:17:19.781291+00:00 ip-172-31-27-232 sshd[2866]: Disconnected from invalid user usuario 181.42.43.32 port 19805 [preauth]
+2024-12-25T13:17:19.782080+00:00 ip-172-31-27-232 sshd[2868]: Received disconnect from 181.42.43.32 port 19803:11: Bye Bye [preauth]
+2024-12-25T13:17:19.782132+00:00 ip-172-31-27-232 sshd[2868]: Disconnected from invalid user usuario 181.42.43.32 port 19803 [preauth]
+2024-12-25T13:17:19.803481+00:00 ip-172-31-27-232 sshd[2871]: Received disconnect from 181.42.43.32 port 19808:11: Bye Bye [preauth]
+2024-12-25T13:17:19.803557+00:00 ip-172-31-27-232 sshd[2871]: Disconnected from invalid user usuario 181.42.43.32 port 19808 [preauth]
+2024-12-25T13:17:19.978424+00:00 ip-172-31-27-232 sshd[2382]: exited MaxStartups throttling after 00:00:20, 8 connections dropped
+2024-12-25T13:17:19.982071+00:00 ip-172-31-27-232 sshd[2382]: error: beginning MaxStartups throttling
+2024-12-25T13:17:19.982134+00:00 ip-172-31-27-232 sshd[2382]: drop connection #10 from [181.42.43.32]:19839 on [172.31.27.232]:22 past MaxStartups
+2024-12-25T13:17:21.015217+00:00 ip-172-31-27-232 sshd[2916]: Failed password for invalid user admin from 181.42.43.32 port 19767 ssh2
+2024-12-25T13:17:21.017888+00:00 ip-172-31-27-232 sshd[2917]: Failed password for invalid user admin from 181.42.43.32 port 19832 ssh2
+2024-12-25T13:17:21.252198+00:00 ip-172-31-27-232 sshd[2921]: Failed password for invalid user admin from 181.42.43.32 port 19774 ssh2
+2024-12-25T13:17:21.252514+00:00 ip-172-31-27-232 sshd[2920]: Failed password for invalid user admin from 181.42.43.32 port 19834 ssh2
+2024-12-25T13:17:21.669164+00:00 ip-172-31-27-232 sshd[2924]: Failed password for invalid user admin from 181.42.43.32 port 19775 ssh2
+2024-12-25T13:17:28.793266+00:00 ip-172-31-27-232 sshd[2910]: Received disconnect from 181.42.43.32 port 19830:11: Bye Bye [preauth]
+2024-12-25T13:17:28.793373+00:00 ip-172-31-27-232 sshd[2910]: Disconnected from invalid user user 181.42.43.32 port 19830 [preauth]
+2024-12-25T13:17:29.698170+00:00 ip-172-31-27-232 sshd[2921]: Received disconnect from 181.42.43.32 port 19774:11: Bye Bye [preauth]
+2024-12-25T13:17:29.698299+00:00 ip-172-31-27-232 sshd[2921]: Disconnected from invalid user admin 181.42.43.32 port 19774 [preauth]
+2024-12-25T13:17:29.808410+00:00 ip-172-31-27-232 sshd[2920]: Received disconnect from 181.42.43.32 port 19834:11: Bye Bye [preauth]
+2024-12-25T13:17:29.808503+00:00 ip-172-31-27-232 sshd[2920]: Disconnected from invalid user admin 181.42.43.32 port 19834 [preauth]
+2024-12-25T13:17:30.630903+00:00 ip-172-31-27-232 sshd[2933]: Invalid user administrador from 181.42.43.32 port 41865
+2024-12-25T13:17:30.632400+00:00 ip-172-31-27-232 sshd[2924]: Received disconnect from 181.42.43.32 port 19775:11: Bye Bye [preauth]
+2024-12-25T13:17:30.632470+00:00 ip-172-31-27-232 sshd[2924]: Disconnected from invalid user admin 181.42.43.32 port 19775 [preauth]
+2024-12-25T13:17:30.709434+00:00 ip-172-31-27-232 sshd[2932]: Invalid user administrador from 181.42.43.32 port 41861
+2024-12-25T13:17:30.837577+00:00 ip-172-31-27-232 sshd[2933]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:30.837711+00:00 ip-172-31-27-232 sshd[2933]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:30.935479+00:00 ip-172-31-27-232 sshd[2932]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:30.935550+00:00 ip-172-31-27-232 sshd[2932]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:30.999829+00:00 ip-172-31-27-232 sshd[2936]: Invalid user administrador from 181.42.43.32 port 41866
+2024-12-25T13:17:31.005761+00:00 ip-172-31-27-232 sshd[2938]: Invalid user administrador from 181.42.43.32 port 41927
+2024-12-25T13:17:31.168057+00:00 ip-172-31-27-232 sshd[2936]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:31.168134+00:00 ip-172-31-27-232 sshd[2936]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:31.173287+00:00 ip-172-31-27-232 sshd[2938]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:31.173354+00:00 ip-172-31-27-232 sshd[2938]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:31.345207+00:00 ip-172-31-27-232 sshd[2926]: Invalid user admin from 181.42.43.32 port 41921
+2024-12-25T13:17:31.443853+00:00 ip-172-31-27-232 sshd[2917]: Received disconnect from 181.42.43.32 port 19832:11: Bye Bye [preauth]
+2024-12-25T13:17:31.443933+00:00 ip-172-31-27-232 sshd[2917]: Disconnected from invalid user admin 181.42.43.32 port 19832 [preauth]
+2024-12-25T13:17:31.548213+00:00 ip-172-31-27-232 sshd[2926]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:31.548520+00:00 ip-172-31-27-232 sshd[2926]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:31.858938+00:00 ip-172-31-27-232 sshd[2928]: Invalid user administrador from 181.42.43.32 port 41858
+2024-12-25T13:17:31.860882+00:00 ip-172-31-27-232 sshd[2927]: Invalid user administrador from 181.42.43.32 port 41857
+2024-12-25T13:17:32.033242+00:00 ip-172-31-27-232 sshd[2928]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:32.033352+00:00 ip-172-31-27-232 sshd[2928]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:32.033473+00:00 ip-172-31-27-232 sshd[2927]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:32.033509+00:00 ip-172-31-27-232 sshd[2927]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:32.037117+00:00 ip-172-31-27-232 sshd[2940]: Invalid user administrador from 181.42.43.32 port 41867
+2024-12-25T13:17:32.264065+00:00 ip-172-31-27-232 sshd[2940]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:32.264285+00:00 ip-172-31-27-232 sshd[2940]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:32.699356+00:00 ip-172-31-27-232 sshd[2916]: Received disconnect from 181.42.43.32 port 19767:11: Bye Bye [preauth]
+2024-12-25T13:17:32.699437+00:00 ip-172-31-27-232 sshd[2916]: Disconnected from invalid user admin 181.42.43.32 port 19767 [preauth]
+2024-12-25T13:17:33.114542+00:00 ip-172-31-27-232 sshd[2933]: Failed password for invalid user administrador from 181.42.43.32 port 41865 ssh2
+2024-12-25T13:17:33.211753+00:00 ip-172-31-27-232 sshd[2932]: Failed password for invalid user administrador from 181.42.43.32 port 41861 ssh2
+2024-12-25T13:17:33.248782+00:00 ip-172-31-27-232 sshd[2936]: Failed password for invalid user administrador from 181.42.43.32 port 41866 ssh2
+2024-12-25T13:17:33.253049+00:00 ip-172-31-27-232 sshd[2938]: Failed password for invalid user administrador from 181.42.43.32 port 41927 ssh2
+2024-12-25T13:17:33.397873+00:00 ip-172-31-27-232 sshd[2942]: Invalid user administrador from 181.42.43.32 port 41871
+2024-12-25T13:17:33.602039+00:00 ip-172-31-27-232 sshd[2942]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:33.602116+00:00 ip-172-31-27-232 sshd[2942]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:33.628791+00:00 ip-172-31-27-232 sshd[2926]: Failed password for invalid user admin from 181.42.43.32 port 41921 ssh2
+2024-12-25T13:17:34.321200+00:00 ip-172-31-27-232 sshd[2933]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:34.348483+00:00 ip-172-31-27-232 sshd[2932]: Received disconnect from 181.42.43.32 port 41861:11: Bye Bye [preauth]
+2024-12-25T13:17:34.348579+00:00 ip-172-31-27-232 sshd[2932]: Disconnected from invalid user administrador 181.42.43.32 port 41861 [preauth]
+2024-12-25T13:17:34.585365+00:00 ip-172-31-27-232 sshd[2928]: Failed password for invalid user administrador from 181.42.43.32 port 41858 ssh2
+2024-12-25T13:17:34.585529+00:00 ip-172-31-27-232 sshd[2927]: Failed password for invalid user administrador from 181.42.43.32 port 41857 ssh2
+2024-12-25T13:17:34.669162+00:00 ip-172-31-27-232 sshd[2938]: Connection closed by invalid user administrador 181.42.43.32 port 41927 [preauth]
+2024-12-25T13:17:34.671064+00:00 ip-172-31-27-232 sshd[2936]: Received disconnect from 181.42.43.32 port 41866:11: Bye Bye [preauth]
+2024-12-25T13:17:34.671141+00:00 ip-172-31-27-232 sshd[2936]: Disconnected from invalid user administrador 181.42.43.32 port 41866 [preauth]
+2024-12-25T13:17:34.816219+00:00 ip-172-31-27-232 sshd[2940]: Failed password for invalid user administrador from 181.42.43.32 port 41867 ssh2
+2024-12-25T13:17:35.036681+00:00 ip-172-31-27-232 sshd[2926]: Connection closed by invalid user admin 181.42.43.32 port 41921 [preauth]
+2024-12-25T13:17:35.038192+00:00 ip-172-31-27-232 sshd[2944]: Invalid user administrador from 181.42.43.32 port 41933
+2024-12-25T13:17:35.235974+00:00 ip-172-31-27-232 sshd[2944]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:35.236106+00:00 ip-172-31-27-232 sshd[2944]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:35.336557+00:00 ip-172-31-27-232 sshd[2927]: Connection closed by invalid user administrador 181.42.43.32 port 41857 [preauth]
+2024-12-25T13:17:35.337873+00:00 ip-172-31-27-232 sshd[2928]: Connection closed by invalid user administrador 181.42.43.32 port 41858 [preauth]
+2024-12-25T13:17:35.612612+00:00 ip-172-31-27-232 sshd[2940]: Connection closed by invalid user administrador 181.42.43.32 port 41867 [preauth]
+2024-12-25T13:17:35.612842+00:00 ip-172-31-27-232 sshd[2912]: Connection closed by invalid user admin 181.42.43.32 port 19831 [preauth]
+2024-12-25T13:17:35.613392+00:00 ip-172-31-27-232 sshd[2913]: Connection closed by invalid user admin 181.42.43.32 port 19765 [preauth]
+2024-12-25T13:17:35.622504+00:00 ip-172-31-27-232 sshd[2942]: Failed password for invalid user administrador from 181.42.43.32 port 41871 ssh2
+2024-12-25T13:17:35.814385+00:00 ip-172-31-27-232 sshd[2933]: Failed password for invalid user administrador from 181.42.43.32 port 41865 ssh2
+2024-12-25T13:17:36.049568+00:00 ip-172-31-27-232 sshd[2946]: Invalid user usuario from 181.42.43.32 port 41873
+2024-12-25T13:17:36.054246+00:00 ip-172-31-27-232 sshd[2933]: Connection closed by invalid user administrador 181.42.43.32 port 41865 [preauth]
+2024-12-25T13:17:36.054949+00:00 ip-172-31-27-232 sshd[2933]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:36.259056+00:00 ip-172-31-27-232 sshd[2946]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T13:17:36.259133+00:00 ip-172-31-27-232 sshd[2946]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.42.43.32 
+2024-12-25T13:17:37.143438+00:00 ip-172-31-27-232 sshd[2942]: Connection closed by invalid user administrador 181.42.43.32 port 41871 [preauth]
+2024-12-25T13:17:37.200845+00:00 ip-172-31-27-232 sshd[2944]: Failed password for invalid user administrador from 181.42.43.32 port 41933 ssh2
+2024-12-25T13:17:37.692568+00:00 ip-172-31-27-232 sshd[2946]: Failed password for invalid user usuario from 181.42.43.32 port 41873 ssh2
+2024-12-25T13:17:38.511567+00:00 ip-172-31-27-232 sshd[2944]: Connection closed by invalid user administrador 181.42.43.32 port 41933 [preauth]
+2024-12-25T13:17:38.816495+00:00 ip-172-31-27-232 sshd[2946]: Connection closed by invalid user usuario 181.42.43.32 port 41873 [preauth]
+2024-12-25T13:25:01.400393+00:00 ip-172-31-27-232 CRON[2969]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T13:25:01.404143+00:00 ip-172-31-27-232 CRON[2969]: pam_unix(cron:session): session closed for user root
+2024-12-25T13:35:01.408002+00:00 ip-172-31-27-232 CRON[2980]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T13:35:01.409939+00:00 ip-172-31-27-232 CRON[2980]: pam_unix(cron:session): session closed for user root
+2024-12-25T13:45:01.415370+00:00 ip-172-31-27-232 CRON[3115]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T13:45:01.419540+00:00 ip-172-31-27-232 CRON[3115]: pam_unix(cron:session): session closed for user root
+2024-12-25T13:55:01.424164+00:00 ip-172-31-27-232 CRON[3125]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T13:55:01.427903+00:00 ip-172-31-27-232 CRON[3125]: pam_unix(cron:session): session closed for user root
+2024-12-25T14:05:01.432022+00:00 ip-172-31-27-232 CRON[3134]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T14:05:01.435398+00:00 ip-172-31-27-232 CRON[3134]: pam_unix(cron:session): session closed for user root
+2024-12-25T14:08:13.289800+00:00 ip-172-31-27-232 sshd[2382]: exited MaxStartups throttling after 00:50:53, 4 connections dropped
+2024-12-25T14:08:13.314816+00:00 ip-172-31-27-232 sshd[3139]: Connection closed by 130.211.219.52 port 35994
+2024-12-25T14:08:13.560858+00:00 ip-172-31-27-232 sshd[3140]: Invalid user usr from 130.211.219.52 port 35998
+2024-12-25T14:08:13.588028+00:00 ip-172-31-27-232 sshd[3140]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:13.588123+00:00 ip-172-31-27-232 sshd[3140]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:15.949383+00:00 ip-172-31-27-232 sshd[3140]: Failed password for invalid user usr from 130.211.219.52 port 35998 ssh2
+2024-12-25T14:08:16.713854+00:00 ip-172-31-27-232 sshd[3140]: Connection closed by invalid user usr 130.211.219.52 port 35998 [preauth]
+2024-12-25T14:08:16.864574+00:00 ip-172-31-27-232 sshd[3142]: Invalid user openvswitch from 130.211.219.52 port 36008
+2024-12-25T14:08:16.892522+00:00 ip-172-31-27-232 sshd[3142]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:16.892607+00:00 ip-172-31-27-232 sshd[3142]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:18.997744+00:00 ip-172-31-27-232 sshd[3142]: Failed password for invalid user openvswitch from 130.211.219.52 port 36008 ssh2
+2024-12-25T14:08:19.268490+00:00 ip-172-31-27-232 sshd[3142]: Connection closed by invalid user openvswitch 130.211.219.52 port 36008 [preauth]
+2024-12-25T14:08:19.406468+00:00 ip-172-31-27-232 sshd[3144]: Invalid user nfsnobody from 130.211.219.52 port 36010
+2024-12-25T14:08:19.434394+00:00 ip-172-31-27-232 sshd[3144]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:19.434473+00:00 ip-172-31-27-232 sshd[3144]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:20.952407+00:00 ip-172-31-27-232 sshd[3144]: Failed password for invalid user nfsnobody from 130.211.219.52 port 36010 ssh2
+2024-12-25T14:08:21.408576+00:00 ip-172-31-27-232 sshd[3144]: Connection closed by invalid user nfsnobody 130.211.219.52 port 36010 [preauth]
+2024-12-25T14:08:21.570809+00:00 ip-172-31-27-232 sshd[3146]: Invalid user cluster from 130.211.219.52 port 55822
+2024-12-25T14:08:21.600175+00:00 ip-172-31-27-232 sshd[3146]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:21.600251+00:00 ip-172-31-27-232 sshd[3146]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:24.393538+00:00 ip-172-31-27-232 sshd[3146]: Failed password for invalid user cluster from 130.211.219.52 port 55822 ssh2
+2024-12-25T14:08:24.980817+00:00 ip-172-31-27-232 sshd[3146]: Connection closed by invalid user cluster 130.211.219.52 port 55822 [preauth]
+2024-12-25T14:08:25.217926+00:00 ip-172-31-27-232 sshd[3148]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:08:27.558838+00:00 ip-172-31-27-232 sshd[3148]: Failed password for root from 130.211.219.52 port 55838 ssh2
+2024-12-25T14:08:29.380468+00:00 ip-172-31-27-232 sshd[3148]: Connection closed by authenticating user root 130.211.219.52 port 55838 [preauth]
+2024-12-25T14:08:29.518105+00:00 ip-172-31-27-232 sshd[3150]: Invalid user kafka from 130.211.219.52 port 55844
+2024-12-25T14:08:29.564262+00:00 ip-172-31-27-232 sshd[3150]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:29.564343+00:00 ip-172-31-27-232 sshd[3150]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:31.122058+00:00 ip-172-31-27-232 sshd[3150]: Failed password for invalid user kafka from 130.211.219.52 port 55844 ssh2
+2024-12-25T14:08:32.328918+00:00 ip-172-31-27-232 sshd[3150]: Connection closed by invalid user kafka 130.211.219.52 port 55844 [preauth]
+2024-12-25T14:08:32.477373+00:00 ip-172-31-27-232 sshd[3152]: Invalid user mcserver from 130.211.219.52 port 54382
+2024-12-25T14:08:32.505285+00:00 ip-172-31-27-232 sshd[3152]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:32.505401+00:00 ip-172-31-27-232 sshd[3152]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:34.474968+00:00 ip-172-31-27-232 sshd[3152]: Failed password for invalid user mcserver from 130.211.219.52 port 54382 ssh2
+2024-12-25T14:08:34.708223+00:00 ip-172-31-27-232 sshd[3152]: Connection closed by invalid user mcserver 130.211.219.52 port 54382 [preauth]
+2024-12-25T14:08:34.852695+00:00 ip-172-31-27-232 sshd[3154]: Invalid user test from 130.211.219.52 port 54396
+2024-12-25T14:08:34.879819+00:00 ip-172-31-27-232 sshd[3154]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:34.879891+00:00 ip-172-31-27-232 sshd[3154]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:36.789407+00:00 ip-172-31-27-232 sshd[3154]: Failed password for invalid user test from 130.211.219.52 port 54396 ssh2
+2024-12-25T14:08:37.891554+00:00 ip-172-31-27-232 sshd[3154]: Connection closed by invalid user test 130.211.219.52 port 54396 [preauth]
+2024-12-25T14:08:38.060484+00:00 ip-172-31-27-232 sshd[3156]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:08:40.185706+00:00 ip-172-31-27-232 sshd[3156]: Failed password for root from 130.211.219.52 port 54410 ssh2
+2024-12-25T14:08:42.224058+00:00 ip-172-31-27-232 sshd[3156]: Connection closed by authenticating user root 130.211.219.52 port 54410 [preauth]
+2024-12-25T14:08:42.360523+00:00 ip-172-31-27-232 sshd[3158]: Invalid user prometheus from 130.211.219.52 port 56888
+2024-12-25T14:08:42.400681+00:00 ip-172-31-27-232 sshd[3158]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:42.400766+00:00 ip-172-31-27-232 sshd[3158]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:43.743459+00:00 ip-172-31-27-232 sshd[3158]: Failed password for invalid user prometheus from 130.211.219.52 port 56888 ssh2
+2024-12-25T14:08:44.361719+00:00 ip-172-31-27-232 sshd[3158]: Connection closed by invalid user prometheus 130.211.219.52 port 56888 [preauth]
+2024-12-25T14:08:44.530173+00:00 ip-172-31-27-232 sshd[3160]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:08:47.146863+00:00 ip-172-31-27-232 sshd[3160]: Failed password for root from 130.211.219.52 port 56892 ssh2
+2024-12-25T14:08:48.692918+00:00 ip-172-31-27-232 sshd[3160]: Connection closed by authenticating user root 130.211.219.52 port 56892 [preauth]
+2024-12-25T14:08:48.842391+00:00 ip-172-31-27-232 sshd[3162]: Invalid user postgres from 130.211.219.52 port 56908
+2024-12-25T14:08:48.873300+00:00 ip-172-31-27-232 sshd[3162]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:48.873388+00:00 ip-172-31-27-232 sshd[3162]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:08:51.038754+00:00 ip-172-31-27-232 sshd[3162]: Failed password for invalid user postgres from 130.211.219.52 port 56908 ssh2
+2024-12-25T14:08:51.245249+00:00 ip-172-31-27-232 sshd[3162]: Connection closed by invalid user postgres 130.211.219.52 port 56908 [preauth]
+2024-12-25T14:08:51.407943+00:00 ip-172-31-27-232 sshd[3164]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:08:53.653683+00:00 ip-172-31-27-232 sshd[3164]: Failed password for root from 130.211.219.52 port 34370 ssh2
+2024-12-25T14:08:55.575460+00:00 ip-172-31-27-232 sshd[3164]: Connection closed by authenticating user root 130.211.219.52 port 34370 [preauth]
+2024-12-25T14:08:55.786880+00:00 ip-172-31-27-232 sshd[3166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:08:57.580997+00:00 ip-172-31-27-232 sshd[3166]: Failed password for root from 130.211.219.52 port 34382 ssh2
+2024-12-25T14:08:57.881075+00:00 ip-172-31-27-232 sshd[3166]: Connection closed by authenticating user root 130.211.219.52 port 34382 [preauth]
+2024-12-25T14:08:58.049612+00:00 ip-172-31-27-232 sshd[3168]: Invalid user vyos from 130.211.219.52 port 34384
+2024-12-25T14:08:58.075724+00:00 ip-172-31-27-232 sshd[3168]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:08:58.075791+00:00 ip-172-31-27-232 sshd[3168]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:00.281222+00:00 ip-172-31-27-232 sshd[3168]: Failed password for invalid user vyos from 130.211.219.52 port 34384 ssh2
+2024-12-25T14:09:00.355532+00:00 ip-172-31-27-232 sshd[3168]: Connection closed by invalid user vyos 130.211.219.52 port 34384 [preauth]
+2024-12-25T14:09:00.528770+00:00 ip-172-31-27-232 sshd[3170]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:09:02.674083+00:00 ip-172-31-27-232 sshd[3170]: Failed password for root from 130.211.219.52 port 34392 ssh2
+2024-12-25T14:09:04.691700+00:00 ip-172-31-27-232 sshd[3170]: Connection closed by authenticating user root 130.211.219.52 port 34392 [preauth]
+2024-12-25T14:09:04.931861+00:00 ip-172-31-27-232 sshd[3172]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:09:06.294415+00:00 ip-172-31-27-232 sshd[3172]: Failed password for root from 130.211.219.52 port 46612 ssh2
+2024-12-25T14:09:07.026627+00:00 ip-172-31-27-232 sshd[3172]: Connection closed by authenticating user root 130.211.219.52 port 46612 [preauth]
+2024-12-25T14:09:07.258947+00:00 ip-172-31-27-232 sshd[3174]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:09:09.033048+00:00 ip-172-31-27-232 sshd[3174]: Failed password for root from 130.211.219.52 port 46638 ssh2
+2024-12-25T14:09:09.358739+00:00 ip-172-31-27-232 sshd[3174]: Connection closed by authenticating user root 130.211.219.52 port 46638 [preauth]
+2024-12-25T14:09:09.533485+00:00 ip-172-31-27-232 sshd[3176]: Invalid user guest from 130.211.219.52 port 46648
+2024-12-25T14:09:09.563977+00:00 ip-172-31-27-232 sshd[3176]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:09.564064+00:00 ip-172-31-27-232 sshd[3176]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:11.945621+00:00 ip-172-31-27-232 sshd[3176]: Failed password for invalid user guest from 130.211.219.52 port 46648 ssh2
+2024-12-25T14:09:12.596193+00:00 ip-172-31-27-232 sshd[3176]: Connection closed by invalid user guest 130.211.219.52 port 46648 [preauth]
+2024-12-25T14:09:12.765004+00:00 ip-172-31-27-232 sshd[3178]: Invalid user guest from 130.211.219.52 port 44590
+2024-12-25T14:09:12.792473+00:00 ip-172-31-27-232 sshd[3178]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:12.792553+00:00 ip-172-31-27-232 sshd[3178]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:14.586905+00:00 ip-172-31-27-232 sshd[3178]: Failed password for invalid user guest from 130.211.219.52 port 44590 ssh2
+2024-12-25T14:09:15.824443+00:00 ip-172-31-27-232 sshd[3178]: Connection closed by invalid user guest 130.211.219.52 port 44590 [preauth]
+2024-12-25T14:09:15.961682+00:00 ip-172-31-27-232 sshd[3180]: Invalid user odoo from 130.211.219.52 port 44592
+2024-12-25T14:09:15.988670+00:00 ip-172-31-27-232 sshd[3180]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:15.988753+00:00 ip-172-31-27-232 sshd[3180]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:18.194503+00:00 ip-172-31-27-232 sshd[3180]: Failed password for invalid user odoo from 130.211.219.52 port 44592 ssh2
+2024-12-25T14:09:18.798833+00:00 ip-172-31-27-232 sshd[3180]: Connection closed by invalid user odoo 130.211.219.52 port 44592 [preauth]
+2024-12-25T14:09:18.943239+00:00 ip-172-31-27-232 sshd[3182]: Invalid user admin from 130.211.219.52 port 44608
+2024-12-25T14:09:18.970482+00:00 ip-172-31-27-232 sshd[3182]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:18.970567+00:00 ip-172-31-27-232 sshd[3182]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:20.253214+00:00 ip-172-31-27-232 sshd[3182]: Failed password for invalid user admin from 130.211.219.52 port 44608 ssh2
+2024-12-25T14:09:20.576087+00:00 ip-172-31-27-232 sshd[3182]: Connection closed by invalid user admin 130.211.219.52 port 44608 [preauth]
+2024-12-25T14:09:20.715993+00:00 ip-172-31-27-232 sshd[3184]: Invalid user nagios from 130.211.219.52 port 43682
+2024-12-25T14:09:20.744513+00:00 ip-172-31-27-232 sshd[3184]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:20.744653+00:00 ip-172-31-27-232 sshd[3184]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:22.970152+00:00 ip-172-31-27-232 sshd[3184]: Failed password for invalid user nagios from 130.211.219.52 port 43682 ssh2
+2024-12-25T14:09:23.141343+00:00 ip-172-31-27-232 sshd[3184]: Connection closed by invalid user nagios 130.211.219.52 port 43682 [preauth]
+2024-12-25T14:09:23.345015+00:00 ip-172-31-27-232 sshd[3186]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=ubuntu
+2024-12-25T14:09:24.982695+00:00 ip-172-31-27-232 sshd[3186]: Failed password for ubuntu from 130.211.219.52 port 43686 ssh2
+2024-12-25T14:09:26.286949+00:00 ip-172-31-27-232 sshd[3186]: Connection closed by authenticating user ubuntu 130.211.219.52 port 43686 [preauth]
+2024-12-25T14:09:26.438475+00:00 ip-172-31-27-232 sshd[3188]: Invalid user postgres from 130.211.219.52 port 43704
+2024-12-25T14:09:26.465662+00:00 ip-172-31-27-232 sshd[3188]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:26.465745+00:00 ip-172-31-27-232 sshd[3188]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:28.515667+00:00 ip-172-31-27-232 sshd[3188]: Failed password for invalid user postgres from 130.211.219.52 port 43704 ssh2
+2024-12-25T14:09:28.837804+00:00 ip-172-31-27-232 sshd[3188]: Connection closed by invalid user postgres 130.211.219.52 port 43704 [preauth]
+2024-12-25T14:09:28.974922+00:00 ip-172-31-27-232 sshd[3190]: Invalid user vyos from 130.211.219.52 port 43718
+2024-12-25T14:09:29.001555+00:00 ip-172-31-27-232 sshd[3190]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:29.001668+00:00 ip-172-31-27-232 sshd[3190]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:30.324439+00:00 ip-172-31-27-232 sshd[3190]: Failed password for invalid user vyos from 130.211.219.52 port 43718 ssh2
+2024-12-25T14:09:31.281231+00:00 ip-172-31-27-232 sshd[3190]: Connection closed by invalid user vyos 130.211.219.52 port 43718 [preauth]
+2024-12-25T14:09:31.420685+00:00 ip-172-31-27-232 sshd[3192]: Invalid user collector from 130.211.219.52 port 60798
+2024-12-25T14:09:31.448541+00:00 ip-172-31-27-232 sshd[3192]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:31.448686+00:00 ip-172-31-27-232 sshd[3192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:33.850041+00:00 ip-172-31-27-232 sshd[3192]: Failed password for invalid user collector from 130.211.219.52 port 60798 ssh2
+2024-12-25T14:09:35.949889+00:00 ip-172-31-27-232 sshd[3192]: Connection closed by invalid user collector 130.211.219.52 port 60798 [preauth]
+2024-12-25T14:09:36.086014+00:00 ip-172-31-27-232 sshd[3194]: Invalid user usr from 130.211.219.52 port 60802
+2024-12-25T14:09:36.111833+00:00 ip-172-31-27-232 sshd[3194]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:36.111909+00:00 ip-172-31-27-232 sshd[3194]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:37.534884+00:00 ip-172-31-27-232 sshd[3194]: Failed password for invalid user usr from 130.211.219.52 port 60802 ssh2
+2024-12-25T14:09:37.687552+00:00 ip-172-31-27-232 sshd[3194]: Connection closed by invalid user usr 130.211.219.52 port 60802 [preauth]
+2024-12-25T14:09:37.910630+00:00 ip-172-31-27-232 sshd[3196]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=ubuntu
+2024-12-25T14:09:39.469008+00:00 ip-172-31-27-232 sshd[3196]: Failed password for ubuntu from 130.211.219.52 port 60804 ssh2
+2024-12-25T14:09:40.818473+00:00 ip-172-31-27-232 sshd[3196]: Connection closed by authenticating user ubuntu 130.211.219.52 port 60804 [preauth]
+2024-12-25T14:09:40.955857+00:00 ip-172-31-27-232 sshd[3200]: Invalid user qemu from 130.211.219.52 port 47902
+2024-12-25T14:09:40.982925+00:00 ip-172-31-27-232 sshd[3200]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:40.983002+00:00 ip-172-31-27-232 sshd[3200]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:42.621508+00:00 ip-172-31-27-232 sshd[3200]: Failed password for invalid user qemu from 130.211.219.52 port 47902 ssh2
+2024-12-25T14:09:44.069385+00:00 ip-172-31-27-232 sshd[3200]: Connection closed by invalid user qemu 130.211.219.52 port 47902 [preauth]
+2024-12-25T14:09:44.117613+00:00 ip-172-31-27-232 sshd[3198]: Accepted publickey for ubuntu from 179.60.74.230 port 38245 ssh2: RSA SHA256:PuvCit2H3kdHlZfM+3lYC9nIeHog/JGNez001l2LJzE
+2024-12-25T14:09:44.119078+00:00 ip-172-31-27-232 sshd[3198]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T14:09:44.124909+00:00 ip-172-31-27-232 systemd-logind[544]: New session 13 of user ubuntu.
+2024-12-25T14:09:44.207696+00:00 ip-172-31-27-232 sshd[3202]: Invalid user odoo from 130.211.219.52 port 47912
+2024-12-25T14:09:44.236051+00:00 ip-172-31-27-232 sshd[3202]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:44.236116+00:00 ip-172-31-27-232 sshd[3202]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:46.422266+00:00 ip-172-31-27-232 sshd[3202]: Failed password for invalid user odoo from 130.211.219.52 port 47912 ssh2
+2024-12-25T14:09:47.042830+00:00 ip-172-31-27-232 sshd[3202]: Connection closed by invalid user odoo 130.211.219.52 port 47912 [preauth]
+2024-12-25T14:09:47.185974+00:00 ip-172-31-27-232 sshd[3310]: Invalid user odoo from 130.211.219.52 port 47916
+2024-12-25T14:09:47.213053+00:00 ip-172-31-27-232 sshd[3310]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:47.213152+00:00 ip-172-31-27-232 sshd[3310]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:48.811520+00:00 ip-172-31-27-232 sshd[3310]: Failed password for invalid user odoo from 130.211.219.52 port 47916 ssh2
+2024-12-25T14:09:50.056152+00:00 ip-172-31-27-232 sshd[3310]: Connection closed by invalid user odoo 130.211.219.52 port 47916 [preauth]
+2024-12-25T14:09:50.205667+00:00 ip-172-31-27-232 sshd[3312]: Invalid user nfsnobody from 130.211.219.52 port 47928
+2024-12-25T14:09:50.240745+00:00 ip-172-31-27-232 sshd[3312]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:50.240829+00:00 ip-172-31-27-232 sshd[3312]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:52.250730+00:00 ip-172-31-27-232 sshd[3312]: Failed password for invalid user nfsnobody from 130.211.219.52 port 47928 ssh2
+2024-12-25T14:09:54.098930+00:00 ip-172-31-27-232 sshd[3312]: Connection closed by invalid user nfsnobody 130.211.219.52 port 47928 [preauth]
+2024-12-25T14:09:54.240366+00:00 ip-172-31-27-232 sshd[3314]: Invalid user postgres from 130.211.219.52 port 47186
+2024-12-25T14:09:54.267231+00:00 ip-172-31-27-232 sshd[3314]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:54.267307+00:00 ip-172-31-27-232 sshd[3314]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:09:55.825417+00:00 ip-172-31-27-232 sshd[3314]: Failed password for invalid user postgres from 130.211.219.52 port 47186 ssh2
+2024-12-25T14:09:56.640622+00:00 ip-172-31-27-232 sshd[3314]: Connection closed by invalid user postgres 130.211.219.52 port 47186 [preauth]
+2024-12-25T14:09:56.833689+00:00 ip-172-31-27-232 sshd[3316]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:09:58.667754+00:00 ip-172-31-27-232 sshd[3316]: Failed password for root from 130.211.219.52 port 47194 ssh2
+2024-12-25T14:09:58.927752+00:00 ip-172-31-27-232 sshd[3316]: Connection closed by authenticating user root 130.211.219.52 port 47194 [preauth]
+2024-12-25T14:09:59.121674+00:00 ip-172-31-27-232 sshd[3318]: Invalid user nagios from 130.211.219.52 port 47208
+2024-12-25T14:09:59.170243+00:00 ip-172-31-27-232 sshd[3318]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:09:59.170354+00:00 ip-172-31-27-232 sshd[3318]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:10:01.084553+00:00 ip-172-31-27-232 sshd[3318]: Failed password for invalid user nagios from 130.211.219.52 port 47208 ssh2
+2024-12-25T14:10:01.566071+00:00 ip-172-31-27-232 sshd[3318]: Connection closed by invalid user nagios 130.211.219.52 port 47208 [preauth]
+2024-12-25T14:10:01.721903+00:00 ip-172-31-27-232 sshd[3324]: Invalid user deploy from 130.211.219.52 port 49634
+2024-12-25T14:10:01.752527+00:00 ip-172-31-27-232 sshd[3324]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:10:01.752617+00:00 ip-172-31-27-232 sshd[3324]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:10:03.606901+00:00 ip-172-31-27-232 sshd[3324]: Failed password for invalid user deploy from 130.211.219.52 port 49634 ssh2
+2024-12-25T14:10:04.850023+00:00 ip-172-31-27-232 sshd[3324]: Connection closed by invalid user deploy 130.211.219.52 port 49634 [preauth]
+2024-12-25T14:10:04.989959+00:00 ip-172-31-27-232 sshd[3326]: Invalid user qemu from 130.211.219.52 port 49646
+2024-12-25T14:10:05.017086+00:00 ip-172-31-27-232 sshd[3326]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:10:05.017181+00:00 ip-172-31-27-232 sshd[3326]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:10:06.419820+00:00 ip-172-31-27-232 sshd[3326]: Failed password for invalid user qemu from 130.211.219.52 port 49646 ssh2
+2024-12-25T14:10:06.572874+00:00 ip-172-31-27-232 sshd[3326]: Connection closed by invalid user qemu 130.211.219.52 port 49646 [preauth]
+2024-12-25T14:10:06.711527+00:00 ip-172-31-27-232 sshd[3328]: Invalid user devops from 130.211.219.52 port 49654
+2024-12-25T14:10:06.739349+00:00 ip-172-31-27-232 sshd[3328]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T14:10:06.739426+00:00 ip-172-31-27-232 sshd[3328]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52 
+2024-12-25T14:10:08.945342+00:00 ip-172-31-27-232 sshd[3328]: Failed password for invalid user devops from 130.211.219.52 port 49654 ssh2
+2024-12-25T14:10:10.904997+00:00 ip-172-31-27-232 sshd[3328]: Connection closed by invalid user devops 130.211.219.52 port 49654 [preauth]
+2024-12-25T14:10:11.106329+00:00 ip-172-31-27-232 sshd[3330]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:10:13.000441+00:00 ip-172-31-27-232 sshd[3330]: Failed password for root from 130.211.219.52 port 50370 ssh2
+2024-12-25T14:10:13.201498+00:00 ip-172-31-27-232 sshd[3330]: Connection closed by authenticating user root 130.211.219.52 port 50370 [preauth]
+2024-12-25T14:10:13.464819+00:00 ip-172-31-27-232 sshd[3334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=130.211.219.52  user=root
+2024-12-25T14:10:13.993486+00:00 ip-172-31-27-232 ec2-instance-connect[3465]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:0p99C3UkyXw9Ds1zJDNrGeEbb5nij91xpmegL/iO3MA
+2024-12-25T14:10:14.029673+00:00 ip-172-31-27-232 ec2-instance-connect[3497]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:0p99C3UkyXw9Ds1zJDNrGeEbb5nij91xpmegL/iO3MA, request-id: 9b1e5dab-6a98-4b6d-a285-13db647c1e96, for IAM principal: arn:aws:sts::624979103661:assumed-role/voclabs/user3724648=Estudiante_de_prueba
+2024-12-25T14:10:15.298203+00:00 ip-172-31-27-232 sshd[3334]: Failed password for root from 130.211.219.52 port 50372 ssh2
+2024-12-25T14:10:15.443776+00:00 ip-172-31-27-232 ec2-instance-connect[3636]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:0p99C3UkyXw9Ds1zJDNrGeEbb5nij91xpmegL/iO3MA
+2024-12-25T14:10:15.475447+00:00 ip-172-31-27-232 ec2-instance-connect[3668]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:0p99C3UkyXw9Ds1zJDNrGeEbb5nij91xpmegL/iO3MA, request-id: 9b1e5dab-6a98-4b6d-a285-13db647c1e96, for IAM principal: arn:aws:sts::624979103661:assumed-role/voclabs/user3724648=Estudiante_de_prueba
+2024-12-25T14:10:15.562134+00:00 ip-172-31-27-232 sshd[3334]: Connection closed by authenticating user root 130.211.219.52 port 50372 [preauth]
+2024-12-25T14:10:16.197227+00:00 ip-172-31-27-232 sshd[3332]: Accepted publickey for ubuntu from 18.206.107.28 port 58252 ssh2: ED25519 SHA256:0p99C3UkyXw9Ds1zJDNrGeEbb5nij91xpmegL/iO3MA
+2024-12-25T14:10:16.198741+00:00 ip-172-31-27-232 sshd[3332]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T14:10:16.203213+00:00 ip-172-31-27-232 systemd-logind[544]: New session 14 of user ubuntu.
+2024-12-25T14:11:17.304811+00:00 ip-172-31-27-232 sshd[848]: pam_unix(sshd:session): session closed for user ubuntu
+2024-12-25T14:11:17.305657+00:00 ip-172-31-27-232 su[1353]: pam_unix(su:session): session closed for user root
+2024-12-25T14:11:17.307585+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session closed for user root
+2024-12-25T14:11:17.313486+00:00 ip-172-31-27-232 systemd-logind[544]: Session 1 logged out. Waiting for processes to exit.
+2024-12-25T14:11:17.314270+00:00 ip-172-31-27-232 systemd-logind[544]: Removed session 1.
+2024-12-25T14:15:01.440197+00:00 ip-172-31-27-232 CRON[3771]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T14:15:01.442326+00:00 ip-172-31-27-232 CRON[3771]: pam_unix(cron:session): session closed for user root
+2024-12-25T14:17:01.445365+00:00 ip-172-31-27-232 CRON[3780]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T14:17:01.448363+00:00 ip-172-31-27-232 CRON[3780]: pam_unix(cron:session): session closed for user root
+2024-12-25T14:25:01.453544+00:00 ip-172-31-27-232 CRON[3788]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T14:25:01.457005+00:00 ip-172-31-27-232 CRON[3788]: pam_unix(cron:session): session closed for user root
+2024-12-25T14:35:01.462564+00:00 ip-172-31-27-232 CRON[3798]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T14:35:01.466082+00:00 ip-172-31-27-232 CRON[3798]: pam_unix(cron:session): session closed for user root
+2024-12-25T14:45:01.471526+00:00 ip-172-31-27-232 CRON[3808]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T14:45:01.473470+00:00 ip-172-31-27-232 CRON[3808]: pam_unix(cron:session): session closed for user root
+2024-12-25T14:55:01.479089+00:00 ip-172-31-27-232 CRON[3817]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T14:55:01.481610+00:00 ip-172-31-27-232 CRON[3817]: pam_unix(cron:session): session closed for user root
+2024-12-25T15:05:01.486866+00:00 ip-172-31-27-232 CRON[3826]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T15:05:01.489553+00:00 ip-172-31-27-232 CRON[3826]: pam_unix(cron:session): session closed for user root
+2024-12-25T15:14:48.440500+00:00 ip-172-31-27-232 sshd[3835]: Invalid user  from 164.92.98.43 port 58718
+2024-12-25T15:14:56.125061+00:00 ip-172-31-27-232 sshd[3835]: Connection closed by invalid user  164.92.98.43 port 58718 [preauth]
+2024-12-25T15:15:01.494193+00:00 ip-172-31-27-232 CRON[3837]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T15:15:01.496878+00:00 ip-172-31-27-232 CRON[3837]: pam_unix(cron:session): session closed for user root
+2024-12-25T15:16:32.936566+00:00 ip-172-31-27-232 sshd[3842]: Invalid user elasticsearch from 164.92.98.43 port 36910
+2024-12-25T15:16:33.022477+00:00 ip-172-31-27-232 sshd[3842]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:16:33.022568+00:00 ip-172-31-27-232 sshd[3842]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:16:34.906698+00:00 ip-172-31-27-232 sshd[3842]: Failed password for invalid user elasticsearch from 164.92.98.43 port 36910 ssh2
+2024-12-25T15:16:35.240095+00:00 ip-172-31-27-232 sshd[3842]: Connection closed by invalid user elasticsearch 164.92.98.43 port 36910 [preauth]
+2024-12-25T15:16:47.523492+00:00 ip-172-31-27-232 sshd[3844]: Invalid user hadoop from 164.92.98.43 port 38060
+2024-12-25T15:16:47.924384+00:00 ip-172-31-27-232 sshd[3844]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:16:47.924448+00:00 ip-172-31-27-232 sshd[3844]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:16:50.064372+00:00 ip-172-31-27-232 sshd[3844]: Failed password for invalid user hadoop from 164.92.98.43 port 38060 ssh2
+2024-12-25T15:16:51.811865+00:00 ip-172-31-27-232 sshd[3844]: Connection closed by invalid user hadoop 164.92.98.43 port 38060 [preauth]
+2024-12-25T15:16:58.516564+00:00 ip-172-31-27-232 sshd[3846]: Invalid user postgres from 164.92.98.43 port 39210
+2024-12-25T15:16:59.544970+00:00 ip-172-31-27-232 sshd[3846]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:16:59.545054+00:00 ip-172-31-27-232 sshd[3846]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:17:01.500467+00:00 ip-172-31-27-232 CRON[3848]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T15:17:01.502354+00:00 ip-172-31-27-232 CRON[3848]: pam_unix(cron:session): session closed for user root
+2024-12-25T15:17:01.665323+00:00 ip-172-31-27-232 sshd[3846]: Failed password for invalid user postgres from 164.92.98.43 port 39210 ssh2
+2024-12-25T15:17:02.025916+00:00 ip-172-31-27-232 sshd[3846]: Connection closed by invalid user postgres 164.92.98.43 port 39210 [preauth]
+2024-12-25T15:17:11.126123+00:00 ip-172-31-27-232 sshd[3851]: Invalid user mysql from 164.92.98.43 port 40360
+2024-12-25T15:17:11.330232+00:00 ip-172-31-27-232 sshd[3851]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:17:11.330354+00:00 ip-172-31-27-232 sshd[3851]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:17:13.766662+00:00 ip-172-31-27-232 sshd[3851]: Failed password for invalid user mysql from 164.92.98.43 port 40360 ssh2
+2024-12-25T15:17:16.701625+00:00 ip-172-31-27-232 sshd[3851]: Connection closed by invalid user mysql 164.92.98.43 port 40360 [preauth]
+2024-12-25T15:17:22.910758+00:00 ip-172-31-27-232 sshd[3853]: Invalid user git from 164.92.98.43 port 41510
+2024-12-25T15:17:23.741966+00:00 ip-172-31-27-232 sshd[3853]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:17:23.742048+00:00 ip-172-31-27-232 sshd[3853]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:17:26.157909+00:00 ip-172-31-27-232 sshd[3853]: Failed password for invalid user git from 164.92.98.43 port 41510 ssh2
+2024-12-25T15:17:29.412984+00:00 ip-172-31-27-232 sshd[3853]: Connection closed by invalid user git 164.92.98.43 port 41510 [preauth]
+2024-12-25T15:17:36.109842+00:00 ip-172-31-27-232 sshd[3855]: Invalid user elastic from 164.92.98.43 port 42660
+2024-12-25T15:17:38.628487+00:00 ip-172-31-27-232 sshd[3855]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:17:38.628576+00:00 ip-172-31-27-232 sshd[3855]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:17:40.437674+00:00 ip-172-31-27-232 sshd[3855]: Failed password for invalid user elastic from 164.92.98.43 port 42660 ssh2
+2024-12-25T15:17:40.861823+00:00 ip-172-31-27-232 sshd[3855]: Connection closed by invalid user elastic 164.92.98.43 port 42660 [preauth]
+2024-12-25T15:17:51.143571+00:00 ip-172-31-27-232 sshd[3857]: Invalid user yarn from 164.92.98.43 port 43810
+2024-12-25T15:17:51.434980+00:00 ip-172-31-27-232 sshd[3857]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:17:51.435063+00:00 ip-172-31-27-232 sshd[3857]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:17:53.695463+00:00 ip-172-31-27-232 sshd[3857]: Failed password for invalid user yarn from 164.92.98.43 port 43810 ssh2
+2024-12-25T15:17:56.211586+00:00 ip-172-31-27-232 sshd[3857]: Connection closed by invalid user yarn 164.92.98.43 port 43810 [preauth]
+2024-12-25T15:17:58.307834+00:00 ip-172-31-27-232 sshd[3859]: Invalid user worker from 164.92.98.43 port 44958
+2024-12-25T15:17:58.707393+00:00 ip-172-31-27-232 sshd[3859]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:17:58.707472+00:00 ip-172-31-27-232 sshd[3859]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:18:00.927766+00:00 ip-172-31-27-232 sshd[3859]: Failed password for invalid user worker from 164.92.98.43 port 44958 ssh2
+2024-12-25T15:18:03.116736+00:00 ip-172-31-27-232 sshd[3859]: Connection closed by invalid user worker 164.92.98.43 port 44958 [preauth]
+2024-12-25T15:18:07.017688+00:00 ip-172-31-27-232 sshd[3861]: Invalid user developer from 164.92.98.43 port 46108
+2024-12-25T15:18:07.717083+00:00 ip-172-31-27-232 sshd[3861]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:18:07.717168+00:00 ip-172-31-27-232 sshd[3861]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:18:09.174408+00:00 ip-172-31-27-232 sshd[3861]: Failed password for invalid user developer from 164.92.98.43 port 46108 ssh2
+2024-12-25T15:18:09.629043+00:00 ip-172-31-27-232 sshd[3861]: Connection closed by invalid user developer 164.92.98.43 port 46108 [preauth]
+2024-12-25T15:18:19.814719+00:00 ip-172-31-27-232 sshd[3863]: Invalid user satisfactory from 164.92.98.43 port 47256
+2024-12-25T15:18:21.029187+00:00 ip-172-31-27-232 sshd[3863]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:18:21.029273+00:00 ip-172-31-27-232 sshd[3863]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:18:23.073712+00:00 ip-172-31-27-232 sshd[3863]: Failed password for invalid user satisfactory from 164.92.98.43 port 47256 ssh2
+2024-12-25T15:18:24.720011+00:00 ip-172-31-27-232 sshd[3863]: Connection closed by invalid user satisfactory 164.92.98.43 port 47256 [preauth]
+2024-12-25T15:18:31.434798+00:00 ip-172-31-27-232 sshd[3865]: Invalid user jack from 164.92.98.43 port 48406
+2024-12-25T15:18:31.554992+00:00 ip-172-31-27-232 sshd[3865]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:18:31.555085+00:00 ip-172-31-27-232 sshd[3865]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:18:32.972682+00:00 ip-172-31-27-232 sshd[3865]: Failed password for invalid user jack from 164.92.98.43 port 48406 ssh2
+2024-12-25T15:18:33.437764+00:00 ip-172-31-27-232 sshd[3865]: Connection closed by invalid user jack 164.92.98.43 port 48406 [preauth]
+2024-12-25T15:18:44.119313+00:00 ip-172-31-27-232 sshd[3867]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43  user=root
+2024-12-25T15:18:45.988100+00:00 ip-172-31-27-232 sshd[3867]: Failed password for root from 164.92.98.43 port 49554 ssh2
+2024-12-25T15:18:46.304465+00:00 ip-172-31-27-232 sshd[3867]: Connection closed by authenticating user root 164.92.98.43 port 49554 [preauth]
+2024-12-25T15:18:53.810026+00:00 ip-172-31-27-232 sshd[3869]: Invalid user azureuser from 164.92.98.43 port 50704
+2024-12-25T15:18:54.513400+00:00 ip-172-31-27-232 sshd[3869]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:18:54.513492+00:00 ip-172-31-27-232 sshd[3869]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:18:56.422482+00:00 ip-172-31-27-232 sshd[3869]: Failed password for invalid user azureuser from 164.92.98.43 port 50704 ssh2
+2024-12-25T15:18:56.544987+00:00 ip-172-31-27-232 sshd[3869]: Connection closed by invalid user azureuser 164.92.98.43 port 50704 [preauth]
+2024-12-25T15:19:04.804984+00:00 ip-172-31-27-232 sshd[3871]: Invalid user steam from 164.92.98.43 port 51856
+2024-12-25T15:19:05.207652+00:00 ip-172-31-27-232 sshd[3871]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:19:05.207739+00:00 ip-172-31-27-232 sshd[3871]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:19:07.292472+00:00 ip-172-31-27-232 sshd[3871]: Failed password for invalid user steam from 164.92.98.43 port 51856 ssh2
+2024-12-25T15:19:08.116926+00:00 ip-172-31-27-232 sshd[3871]: Connection closed by invalid user steam 164.92.98.43 port 51856 [preauth]
+2024-12-25T15:19:17.834786+00:00 ip-172-31-27-232 sshd[3873]: Invalid user ftpuser from 164.92.98.43 port 53006
+2024-12-25T15:19:18.108245+00:00 ip-172-31-27-232 sshd[3873]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:19:18.108328+00:00 ip-172-31-27-232 sshd[3873]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:19:19.977669+00:00 ip-172-31-27-232 sshd[3873]: Failed password for invalid user ftpuser from 164.92.98.43 port 53006 ssh2
+2024-12-25T15:19:21.609961+00:00 ip-172-31-27-232 sshd[3873]: Connection closed by invalid user ftpuser 164.92.98.43 port 53006 [preauth]
+2024-12-25T15:19:26.721011+00:00 ip-172-31-27-232 sshd[3875]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43  user=root
+2024-12-25T15:19:28.690197+00:00 ip-172-31-27-232 sshd[3875]: Failed password for root from 164.92.98.43 port 54158 ssh2
+2024-12-25T15:19:29.006730+00:00 ip-172-31-27-232 sshd[3875]: Connection closed by authenticating user root 164.92.98.43 port 54158 [preauth]
+2024-12-25T15:19:38.305405+00:00 ip-172-31-27-232 sshd[3877]: Invalid user omsagent from 164.92.98.43 port 55310
+2024-12-25T15:19:38.419434+00:00 ip-172-31-27-232 sshd[3877]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:19:38.419515+00:00 ip-172-31-27-232 sshd[3877]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:19:40.368918+00:00 ip-172-31-27-232 sshd[3877]: Failed password for invalid user omsagent from 164.92.98.43 port 55310 ssh2
+2024-12-25T15:19:41.706028+00:00 ip-172-31-27-232 sshd[3877]: Connection closed by invalid user omsagent 164.92.98.43 port 55310 [preauth]
+2024-12-25T15:19:48.417762+00:00 ip-172-31-27-232 sshd[3879]: Invalid user nagios from 164.92.98.43 port 56460
+2024-12-25T15:19:49.105742+00:00 ip-172-31-27-232 sshd[3879]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:19:49.105877+00:00 ip-172-31-27-232 sshd[3879]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:19:50.563463+00:00 ip-172-31-27-232 sshd[3879]: Failed password for invalid user nagios from 164.92.98.43 port 56460 ssh2
+2024-12-25T15:19:51.632298+00:00 ip-172-31-27-232 sshd[3879]: Connection closed by invalid user nagios 164.92.98.43 port 56460 [preauth]
+2024-12-25T15:20:00.827703+00:00 ip-172-31-27-232 sshd[3881]: Invalid user fil from 164.92.98.43 port 57612
+2024-12-25T15:20:00.912832+00:00 ip-172-31-27-232 sshd[3881]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:20:00.912948+00:00 ip-172-31-27-232 sshd[3881]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:20:02.882286+00:00 ip-172-31-27-232 sshd[3881]: Failed password for invalid user fil from 164.92.98.43 port 57612 ssh2
+2024-12-25T15:20:04.892266+00:00 ip-172-31-27-232 sshd[3881]: Connection closed by invalid user fil 164.92.98.43 port 57612 [preauth]
+2024-12-25T15:20:14.231189+00:00 ip-172-31-27-232 sshd[3887]: Invalid user elasticsearch from 164.92.98.43 port 58764
+2024-12-25T15:20:14.315087+00:00 ip-172-31-27-232 sshd[3887]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:20:14.315173+00:00 ip-172-31-27-232 sshd[3887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:20:15.873111+00:00 ip-172-31-27-232 sshd[3887]: Failed password for invalid user elasticsearch from 164.92.98.43 port 58764 ssh2
+2024-12-25T15:20:16.832133+00:00 ip-172-31-27-232 sshd[3887]: Connection closed by invalid user elasticsearch 164.92.98.43 port 58764 [preauth]
+2024-12-25T15:20:28.839231+00:00 ip-172-31-27-232 sshd[3889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43  user=root
+2024-12-25T15:20:30.316910+00:00 ip-172-31-27-232 sshd[3889]: Failed password for root from 164.92.98.43 port 59916 ssh2
+2024-12-25T15:20:31.308063+00:00 ip-172-31-27-232 sshd[3889]: Connection closed by authenticating user root 164.92.98.43 port 59916 [preauth]
+2024-12-25T15:20:39.910313+00:00 ip-172-31-27-232 sshd[3891]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43  user=root
+2024-12-25T15:20:41.899596+00:00 ip-172-31-27-232 sshd[3891]: Failed password for root from 164.92.98.43 port 32834 ssh2
+2024-12-25T15:20:42.106109+00:00 ip-172-31-27-232 sshd[3891]: Connection closed by authenticating user root 164.92.98.43 port 32834 [preauth]
+2024-12-25T15:20:50.810734+00:00 ip-172-31-27-232 sshd[3893]: Invalid user vagrant from 164.92.98.43 port 33984
+2024-12-25T15:20:51.312326+00:00 ip-172-31-27-232 sshd[3893]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:20:51.312412+00:00 ip-172-31-27-232 sshd[3893]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:20:53.281955+00:00 ip-172-31-27-232 sshd[3893]: Failed password for invalid user vagrant from 164.92.98.43 port 33984 ssh2
+2024-12-25T15:20:53.509777+00:00 ip-172-31-27-232 sshd[3893]: Connection closed by invalid user vagrant 164.92.98.43 port 33984 [preauth]
+2024-12-25T15:21:03.211853+00:00 ip-172-31-27-232 sshd[3895]: Invalid user test from 164.92.98.43 port 35140
+2024-12-25T15:21:05.427496+00:00 ip-172-31-27-232 sshd[3895]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:21:05.427583+00:00 ip-172-31-27-232 sshd[3895]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:21:07.652737+00:00 ip-172-31-27-232 sshd[3895]: Failed password for invalid user test from 164.92.98.43 port 35140 ssh2
+2024-12-25T15:21:09.117236+00:00 ip-172-31-27-232 sshd[3895]: Connection closed by invalid user test 164.92.98.43 port 35140 [preauth]
+2024-12-25T15:21:14.512493+00:00 ip-172-31-27-232 sshd[3897]: Invalid user admin from 164.92.98.43 port 36292
+2024-12-25T15:21:15.057158+00:00 ip-172-31-27-232 sshd[3897]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:21:15.057253+00:00 ip-172-31-27-232 sshd[3897]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:21:17.322612+00:00 ip-172-31-27-232 sshd[3897]: Failed password for invalid user admin from 164.92.98.43 port 36292 ssh2
+2024-12-25T15:21:18.886008+00:00 ip-172-31-27-232 sshd[3897]: Connection closed by invalid user admin 164.92.98.43 port 36292 [preauth]
+2024-12-25T15:21:25.135863+00:00 ip-172-31-27-232 sshd[3899]: Invalid user elsearch from 164.92.98.43 port 37446
+2024-12-25T15:21:25.239158+00:00 ip-172-31-27-232 sshd[3899]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:21:25.239244+00:00 ip-172-31-27-232 sshd[3899]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:21:26.877009+00:00 ip-172-31-27-232 sshd[3899]: Failed password for invalid user elsearch from 164.92.98.43 port 37446 ssh2
+2024-12-25T15:21:27.142845+00:00 ip-172-31-27-232 sshd[3899]: Connection closed by invalid user elsearch 164.92.98.43 port 37446 [preauth]
+2024-12-25T15:21:34.627438+00:00 ip-172-31-27-232 sshd[3902]: Invalid user steam from 164.92.98.43 port 38598
+2024-12-25T15:21:34.713448+00:00 ip-172-31-27-232 sshd[3902]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:21:34.713548+00:00 ip-172-31-27-232 sshd[3902]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:21:36.918481+00:00 ip-172-31-27-232 sshd[3902]: Failed password for invalid user steam from 164.92.98.43 port 38598 ssh2
+2024-12-25T15:21:37.616779+00:00 ip-172-31-27-232 sshd[3902]: Connection closed by invalid user steam 164.92.98.43 port 38598 [preauth]
+2024-12-25T15:21:46.634316+00:00 ip-172-31-27-232 sshd[3904]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43  user=root
+2024-12-25T15:21:48.488520+00:00 ip-172-31-27-232 sshd[3904]: Failed password for root from 164.92.98.43 port 39748 ssh2
+2024-12-25T15:21:49.113210+00:00 ip-172-31-27-232 sshd[3904]: Connection closed by authenticating user root 164.92.98.43 port 39748 [preauth]
+2024-12-25T15:21:56.931058+00:00 ip-172-31-27-232 sshd[3906]: Invalid user hadoop from 164.92.98.43 port 40898
+2024-12-25T15:21:57.014733+00:00 ip-172-31-27-232 sshd[3906]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:21:57.014821+00:00 ip-172-31-27-232 sshd[3906]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:21:59.045008+00:00 ip-172-31-27-232 sshd[3906]: Failed password for invalid user hadoop from 164.92.98.43 port 40898 ssh2
+2024-12-25T15:22:00.904744+00:00 ip-172-31-27-232 sshd[3906]: Connection closed by invalid user hadoop 164.92.98.43 port 40898 [preauth]
+2024-12-25T15:22:10.206915+00:00 ip-172-31-27-232 sshd[3909]: Invalid user testuser from 164.92.98.43 port 42050
+2024-12-25T15:22:10.609186+00:00 ip-172-31-27-232 sshd[3909]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:22:10.609265+00:00 ip-172-31-27-232 sshd[3909]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:22:12.427621+00:00 ip-172-31-27-232 sshd[3909]: Failed password for invalid user testuser from 164.92.98.43 port 42050 ssh2
+2024-12-25T15:22:12.749573+00:00 ip-172-31-27-232 sshd[3909]: Connection closed by invalid user testuser 164.92.98.43 port 42050 [preauth]
+2024-12-25T15:22:20.036676+00:00 ip-172-31-27-232 sshd[3911]: Invalid user dolphin from 164.92.98.43 port 43202
+2024-12-25T15:22:20.120150+00:00 ip-172-31-27-232 sshd[3911]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:22:20.120236+00:00 ip-172-31-27-232 sshd[3911]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:22:22.645966+00:00 ip-172-31-27-232 sshd[3911]: Failed password for invalid user dolphin from 164.92.98.43 port 43202 ssh2
+2024-12-25T15:22:23.316814+00:00 ip-172-31-27-232 sshd[3911]: Connection closed by invalid user dolphin 164.92.98.43 port 43202 [preauth]
+2024-12-25T15:22:34.428118+00:00 ip-172-31-27-232 sshd[3913]: Invalid user bot from 164.92.98.43 port 44354
+2024-12-25T15:22:34.511703+00:00 ip-172-31-27-232 sshd[3913]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:22:34.511825+00:00 ip-172-31-27-232 sshd[3913]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:22:36.291158+00:00 ip-172-31-27-232 sshd[3913]: Failed password for invalid user bot from 164.92.98.43 port 44354 ssh2
+2024-12-25T15:22:37.615530+00:00 ip-172-31-27-232 sshd[3913]: Connection closed by invalid user bot 164.92.98.43 port 44354 [preauth]
+2024-12-25T15:22:43.148566+00:00 ip-172-31-27-232 sshd[3915]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43  user=root
+2024-12-25T15:22:45.498609+00:00 ip-172-31-27-232 sshd[3915]: Failed password for root from 164.92.98.43 port 45504 ssh2
+2024-12-25T15:22:47.648475+00:00 ip-172-31-27-232 sshd[3915]: Connection closed by authenticating user root 164.92.98.43 port 45504 [preauth]
+2024-12-25T15:22:56.955926+00:00 ip-172-31-27-232 sshd[3917]: Invalid user latitude from 164.92.98.43 port 46642
+2024-12-25T15:22:57.032579+00:00 ip-172-31-27-232 sshd[3917]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:22:57.032717+00:00 ip-172-31-27-232 sshd[3917]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:22:59.303092+00:00 ip-172-31-27-232 sshd[3917]: Failed password for invalid user latitude from 164.92.98.43 port 46642 ssh2
+2024-12-25T15:23:01.808346+00:00 ip-172-31-27-232 sshd[3917]: Connection closed by invalid user latitude 164.92.98.43 port 46642 [preauth]
+2024-12-25T15:23:05.444650+00:00 ip-172-31-27-232 sshd[3919]: Invalid user gitlab-psql from 164.92.98.43 port 47806
+2024-12-25T15:23:05.630809+00:00 ip-172-31-27-232 sshd[3919]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:23:05.630893+00:00 ip-172-31-27-232 sshd[3919]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:23:08.001016+00:00 ip-172-31-27-232 sshd[3919]: Failed password for invalid user gitlab-psql from 164.92.98.43 port 47806 ssh2
+2024-12-25T15:23:08.329733+00:00 ip-172-31-27-232 sshd[3919]: Connection closed by invalid user gitlab-psql 164.92.98.43 port 47806 [preauth]
+2024-12-25T15:23:17.423290+00:00 ip-172-31-27-232 sshd[3921]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43  user=root
+2024-12-25T15:23:19.773842+00:00 ip-172-31-27-232 sshd[3921]: Failed password for root from 164.92.98.43 port 48954 ssh2
+2024-12-25T15:23:21.636027+00:00 ip-172-31-27-232 sshd[3921]: Connection closed by authenticating user root 164.92.98.43 port 48954 [preauth]
+2024-12-25T15:23:29.023669+00:00 ip-172-31-27-232 sshd[3923]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43  user=uucp
+2024-12-25T15:23:31.353855+00:00 ip-172-31-27-232 sshd[3923]: Failed password for uucp from 164.92.98.43 port 50104 ssh2
+2024-12-25T15:23:33.911870+00:00 ip-172-31-27-232 sshd[3923]: Connection closed by authenticating user uucp 164.92.98.43 port 50104 [preauth]
+2024-12-25T15:23:41.438332+00:00 ip-172-31-27-232 sshd[3925]: Invalid user esuser from 164.92.98.43 port 51254
+2024-12-25T15:23:41.515940+00:00 ip-172-31-27-232 sshd[3925]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:23:41.516024+00:00 ip-172-31-27-232 sshd[3925]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:23:43.826238+00:00 ip-172-31-27-232 sshd[3925]: Failed password for invalid user esuser from 164.92.98.43 port 51254 ssh2
+2024-12-25T15:23:45.739758+00:00 ip-172-31-27-232 sshd[3925]: Connection closed by invalid user esuser 164.92.98.43 port 51254 [preauth]
+2024-12-25T15:23:51.710100+00:00 ip-172-31-27-232 sshd[3928]: Invalid user dst from 164.92.98.43 port 52404
+2024-12-25T15:23:52.442611+00:00 ip-172-31-27-232 sshd[3928]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:23:52.442761+00:00 ip-172-31-27-232 sshd[3928]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:23:54.597221+00:00 ip-172-31-27-232 sshd[3928]: Failed password for invalid user dst from 164.92.98.43 port 52404 ssh2
+2024-12-25T15:23:54.856043+00:00 ip-172-31-27-232 sshd[3928]: Connection closed by invalid user dst 164.92.98.43 port 52404 [preauth]
+2024-12-25T15:24:03.137942+00:00 ip-172-31-27-232 sshd[3930]: Invalid user steam from 164.92.98.43 port 53554
+2024-12-25T15:24:03.225927+00:00 ip-172-31-27-232 sshd[3930]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:24:03.226012+00:00 ip-172-31-27-232 sshd[3930]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:24:05.556308+00:00 ip-172-31-27-232 sshd[3930]: Failed password for invalid user steam from 164.92.98.43 port 53554 ssh2
+2024-12-25T15:24:06.127502+00:00 ip-172-31-27-232 sshd[3930]: Connection closed by invalid user steam 164.92.98.43 port 53554 [preauth]
+2024-12-25T15:24:15.630500+00:00 ip-172-31-27-232 sshd[3932]: Invalid user omsagent from 164.92.98.43 port 54704
+2024-12-25T15:24:15.715493+00:00 ip-172-31-27-232 sshd[3932]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:24:15.715583+00:00 ip-172-31-27-232 sshd[3932]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:24:18.361515+00:00 ip-172-31-27-232 sshd[3932]: Failed password for invalid user omsagent from 164.92.98.43 port 54704 ssh2
+2024-12-25T15:24:19.011886+00:00 ip-172-31-27-232 sshd[3932]: Connection closed by invalid user omsagent 164.92.98.43 port 54704 [preauth]
+2024-12-25T15:24:37.653848+00:00 ip-172-31-27-232 sshd[3934]: Invalid user vagrant from 164.92.98.43 port 57000
+2024-12-25T15:24:37.731905+00:00 ip-172-31-27-232 sshd[3934]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:24:37.732529+00:00 ip-172-31-27-232 sshd[3934]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:24:39.731834+00:00 ip-172-31-27-232 sshd[3934]: Failed password for invalid user vagrant from 164.92.98.43 port 57000 ssh2
+2024-12-25T15:24:40.220475+00:00 ip-172-31-27-232 sshd[3934]: Connection closed by invalid user vagrant 164.92.98.43 port 57000 [preauth]
+2024-12-25T15:24:49.835625+00:00 ip-172-31-27-232 sshd[3936]: Invalid user demo from 164.92.98.43 port 58146
+2024-12-25T15:24:49.927389+00:00 ip-172-31-27-232 sshd[3936]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:24:49.927476+00:00 ip-172-31-27-232 sshd[3936]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:24:52.574065+00:00 ip-172-31-27-232 sshd[3936]: Failed password for invalid user demo from 164.92.98.43 port 58146 ssh2
+2024-12-25T15:24:53.505102+00:00 ip-172-31-27-232 sshd[3936]: Connection closed by invalid user demo 164.92.98.43 port 58146 [preauth]
+2024-12-25T15:25:01.507922+00:00 ip-172-31-27-232 CRON[3938]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T15:25:01.510790+00:00 ip-172-31-27-232 CRON[3938]: pam_unix(cron:session): session closed for user root
+2024-12-25T15:25:50.414722+00:00 ip-172-31-27-232 sshd[3941]: Invalid user nvidia from 164.92.98.43 port 35658
+2024-12-25T15:25:51.411148+00:00 ip-172-31-27-232 sshd[3941]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T15:25:51.411248+00:00 ip-172-31-27-232 sshd[3941]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=164.92.98.43 
+2024-12-25T15:25:53.234393+00:00 ip-172-31-27-232 sshd[3941]: Failed password for invalid user nvidia from 164.92.98.43 port 35658 ssh2
+2024-12-25T15:25:56.221265+00:00 ip-172-31-27-232 sshd[3941]: Connection closed by invalid user nvidia 164.92.98.43 port 35658 [preauth]
+2024-12-25T15:35:01.515262+00:00 ip-172-31-27-232 CRON[3950]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T15:35:01.518689+00:00 ip-172-31-27-232 CRON[3950]: pam_unix(cron:session): session closed for user root
+2024-12-25T15:41:09.744751+00:00 ip-172-31-27-232 sshd[2727]: pam_unix(sshd:session): session closed for user ubuntu
+2024-12-25T15:41:09.748820+00:00 ip-172-31-27-232 su[2794]: pam_unix(su:session): session closed for user root
+2024-12-25T15:41:09.748980+00:00 ip-172-31-27-232 systemd-logind[544]: Session 5 logged out. Waiting for processes to exit.
+2024-12-25T15:41:09.749057+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session closed for user root
+2024-12-25T15:41:09.752199+00:00 ip-172-31-27-232 systemd-logind[544]: Removed session 5.
+2024-12-25T15:45:01.522992+00:00 ip-172-31-27-232 CRON[3959]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T15:45:01.525400+00:00 ip-172-31-27-232 CRON[3959]: pam_unix(cron:session): session closed for user root
+2024-12-25T15:55:01.530713+00:00 ip-172-31-27-232 CRON[3987]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T15:55:01.533474+00:00 ip-172-31-27-232 CRON[3987]: pam_unix(cron:session): session closed for user root
+2024-12-25T16:05:01.538124+00:00 ip-172-31-27-232 CRON[3996]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T16:05:01.541336+00:00 ip-172-31-27-232 CRON[3996]: pam_unix(cron:session): session closed for user root
+2024-12-25T16:15:01.546090+00:00 ip-172-31-27-232 CRON[4005]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T16:15:01.548451+00:00 ip-172-31-27-232 CRON[4005]: pam_unix(cron:session): session closed for user root
+2024-12-25T16:17:01.551874+00:00 ip-172-31-27-232 CRON[4009]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T16:17:01.555412+00:00 ip-172-31-27-232 CRON[4009]: pam_unix(cron:session): session closed for user root
+2024-12-25T16:20:15.055131+00:00 ip-172-31-27-232 sshd[4014]: Connection closed by 116.40.65.38 port 46760 [preauth]
+2024-12-25T16:22:07.344781+00:00 ip-172-31-27-232 sshd[3198]: pam_unix(sshd:session): session closed for user ubuntu
+2024-12-25T16:22:07.349568+00:00 ip-172-31-27-232 systemd-logind[544]: Session 13 logged out. Waiting for processes to exit.
+2024-12-25T16:22:07.349890+00:00 ip-172-31-27-232 systemd-logind[544]: Removed session 13.
+2024-12-25T16:25:01.559220+00:00 ip-172-31-27-232 CRON[4022]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T16:25:01.562627+00:00 ip-172-31-27-232 CRON[4022]: pam_unix(cron:session): session closed for user root
+2024-12-25T16:35:01.568498+00:00 ip-172-31-27-232 CRON[4050]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T16:35:01.570785+00:00 ip-172-31-27-232 CRON[4050]: pam_unix(cron:session): session closed for user root
+2024-12-25T16:45:01.576043+00:00 ip-172-31-27-232 CRON[4061]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T16:45:01.579019+00:00 ip-172-31-27-232 CRON[4061]: pam_unix(cron:session): session closed for user root
+2024-12-25T16:49:40.271539+00:00 ip-172-31-27-232 sshd[4065]: error: kex_exchange_identification: read: Connection reset by peer
+2024-12-25T16:49:40.271735+00:00 ip-172-31-27-232 sshd[4065]: Connection reset by 173.186.60.121 port 46923
+2024-12-25T16:55:01.585744+00:00 ip-172-31-27-232 CRON[4072]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T16:55:01.589770+00:00 ip-172-31-27-232 CRON[4072]: pam_unix(cron:session): session closed for user root
+2024-12-25T17:02:05.311102+00:00 ip-172-31-27-232 systemd-logind[544]: The system will power off now!
+2024-12-25T17:02:05.337705+00:00 ip-172-31-27-232 systemd-logind[544]: System is powering down.
+2024-12-25T17:02:05.355196+00:00 ip-172-31-27-232 sshd[3332]: pam_unix(sshd:session): session closed for user ubuntu
+2024-12-25T17:12:14.483950+00:00 ip-172-31-27-232 systemd-logind[572]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-12-25T17:12:14.483952+00:00 ip-172-31-27-232 systemd-logind[572]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-12-25T17:12:14.483955+00:00 ip-172-31-27-232 systemd-logind[572]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-12-25T17:12:14.483958+00:00 ip-172-31-27-232 systemd-logind[572]: New seat seat0.
+2024-12-25T17:12:14.484008+00:00 ip-172-31-27-232 polkitd[558]: Loading rules from directory /etc/polkit-1/rules.d
+2024-12-25T17:12:14.484010+00:00 ip-172-31-27-232 polkitd[558]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-12-25T17:12:14.484015+00:00 ip-172-31-27-232 polkitd[558]: Finished loading, compiling and executing 6 rules
+2024-12-25T17:12:14.484028+00:00 ip-172-31-27-232 polkitd[558]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-12-25T17:13:41.129875+00:00 ip-172-31-27-232 sshd[955]: Server listening on :: port 22.
+2024-12-25T17:13:42.865383+00:00 ip-172-31-27-232 ec2-instance-connect[1088]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:Swb+2c2xpf2vQR6b4invRpqJ0BiDv3cJXzmHLj0tQ5w
+2024-12-25T17:13:42.903412+00:00 ip-172-31-27-232 ec2-instance-connect[1120]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:Swb+2c2xpf2vQR6b4invRpqJ0BiDv3cJXzmHLj0tQ5w, request-id: 93201b5b-92ea-42a4-8282-06e5628eb66f, for IAM principal: arn:aws:sts::624979103661:assumed-role/voclabs/user3724648=Estudiante_de_prueba
+2024-12-25T17:13:44.308419+00:00 ip-172-31-27-232 ec2-instance-connect[1259]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:Swb+2c2xpf2vQR6b4invRpqJ0BiDv3cJXzmHLj0tQ5w
+2024-12-25T17:13:44.340827+00:00 ip-172-31-27-232 ec2-instance-connect[1291]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:Swb+2c2xpf2vQR6b4invRpqJ0BiDv3cJXzmHLj0tQ5w, request-id: 93201b5b-92ea-42a4-8282-06e5628eb66f, for IAM principal: arn:aws:sts::624979103661:assumed-role/voclabs/user3724648=Estudiante_de_prueba
+2024-12-25T17:13:45.049415+00:00 ip-172-31-27-232 sshd[957]: Accepted publickey for ubuntu from 18.206.107.28 port 42831 ssh2: ED25519 SHA256:Swb+2c2xpf2vQR6b4invRpqJ0BiDv3cJXzmHLj0tQ5w
+2024-12-25T17:13:45.053095+00:00 ip-172-31-27-232 sshd[957]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T17:13:45.080245+00:00 ip-172-31-27-232 systemd-logind[572]: New session 1 of user ubuntu.
+2024-12-25T17:13:45.101640+00:00 ip-172-31-27-232 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T17:13:49.817354+00:00 ip-172-31-27-232 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su
+2024-12-25T17:13:49.818300+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-12-25T17:13:49.825269+00:00 ip-172-31-27-232 su[1425]: (to root) root on pts/1
+2024-12-25T17:13:49.825476+00:00 ip-172-31-27-232 su[1425]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-12-25T17:15:01.538909+00:00 ip-172-31-27-232 CRON[1437]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T17:15:01.542898+00:00 ip-172-31-27-232 CRON[1437]: pam_unix(cron:session): session closed for user root
+2024-12-25T17:17:01.546070+00:00 ip-172-31-27-232 CRON[1451]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T17:17:01.550459+00:00 ip-172-31-27-232 CRON[1451]: pam_unix(cron:session): session closed for user root
+2024-12-25T17:25:01.557225+00:00 ip-172-31-27-232 CRON[1472]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T17:25:01.560591+00:00 ip-172-31-27-232 CRON[1472]: pam_unix(cron:session): session closed for user root
+2024-12-25T17:35:01.565012+00:00 ip-172-31-27-232 CRON[1498]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T17:35:01.568101+00:00 ip-172-31-27-232 CRON[1498]: pam_unix(cron:session): session closed for user root
+2024-12-25T17:40:09.581572+00:00 ip-172-31-27-232 sshd[1507]: Invalid user  from 65.49.1.19 port 44161
+2024-12-25T17:40:13.303746+00:00 ip-172-31-27-232 sshd[1507]: Connection closed by invalid user  65.49.1.19 port 44161 [preauth]
+2024-12-25T17:45:01.572328+00:00 ip-172-31-27-232 CRON[1511]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T17:45:01.575784+00:00 ip-172-31-27-232 CRON[1511]: pam_unix(cron:session): session closed for user root
+2024-12-25T17:55:01.580034+00:00 ip-172-31-27-232 CRON[1521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T17:55:01.582230+00:00 ip-172-31-27-232 CRON[1521]: pam_unix(cron:session): session closed for user root
+2024-12-25T18:05:01.587313+00:00 ip-172-31-27-232 CRON[1530]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T18:05:01.590615+00:00 ip-172-31-27-232 CRON[1530]: pam_unix(cron:session): session closed for user root
+2024-12-25T18:11:25.800283+00:00 ip-172-31-27-232 sshd[1552]: Connection closed by 192.155.90.118 port 39032 [preauth]
+2024-12-25T18:11:26.279334+00:00 ip-172-31-27-232 sshd[1554]: Connection closed by 192.155.90.118 port 39040 [preauth]
+2024-12-25T18:11:26.979455+00:00 ip-172-31-27-232 sshd[1556]: Connection closed by 192.155.90.118 port 39052 [preauth]
+2024-12-25T18:14:46.654811+00:00 ip-172-31-27-232 sshd[1561]: Accepted publickey for ubuntu from 179.60.74.230 port 38214 ssh2: RSA SHA256:PuvCit2H3kdHlZfM+3lYC9nIeHog/JGNez001l2LJzE
+2024-12-25T18:14:46.658971+00:00 ip-172-31-27-232 sshd[1561]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T18:14:46.661796+00:00 ip-172-31-27-232 systemd-logind[572]: New session 10 of user ubuntu.
+2024-12-25T18:14:51.897119+00:00 ip-172-31-27-232 sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su
+2024-12-25T18:14:51.900679+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-12-25T18:14:51.901695+00:00 ip-172-31-27-232 su[1671]: (to root) root on pts/3
+2024-12-25T18:14:51.901918+00:00 ip-172-31-27-232 su[1671]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-12-25T18:15:01.596027+00:00 ip-172-31-27-232 CRON[1679]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T18:15:01.598499+00:00 ip-172-31-27-232 CRON[1679]: pam_unix(cron:session): session closed for user root
+2024-12-25T18:17:01.602941+00:00 ip-172-31-27-232 CRON[1709]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T18:17:01.605527+00:00 ip-172-31-27-232 CRON[1709]: pam_unix(cron:session): session closed for user root
+2024-12-25T18:21:37.061626+00:00 ip-172-31-27-232 sshd[1732]: Invalid user usuario from 179.60.74.230 port 38108
+2024-12-25T18:21:37.204673+00:00 ip-172-31-27-232 sshd[1732]: Received disconnect from 179.60.74.230 port 38108:11: Bye Bye [preauth]
+2024-12-25T18:21:37.204756+00:00 ip-172-31-27-232 sshd[1732]: Disconnected from invalid user usuario 179.60.74.230 port 38108 [preauth]
+2024-12-25T18:21:37.629551+00:00 ip-172-31-27-232 sshd[955]: error: beginning MaxStartups throttling
+2024-12-25T18:21:37.629638+00:00 ip-172-31-27-232 sshd[955]: drop connection #14 from [179.60.74.230]:38282 on [172.31.27.232]:22 past MaxStartups
+2024-12-25T18:21:38.299854+00:00 ip-172-31-27-232 sshd[1734]: Invalid user usuario from 179.60.74.230 port 38264
+2024-12-25T18:21:38.317274+00:00 ip-172-31-27-232 sshd[1737]: Invalid user usuario from 179.60.74.230 port 38114
+2024-12-25T18:21:38.342991+00:00 ip-172-31-27-232 sshd[1744]: Invalid user usuario from 179.60.74.230 port 38218
+2024-12-25T18:21:38.369082+00:00 ip-172-31-27-232 sshd[1736]: Invalid user usuario from 179.60.74.230 port 38260
+2024-12-25T18:21:38.369895+00:00 ip-172-31-27-232 sshd[1740]: Invalid user usuario from 179.60.74.230 port 38188
+2024-12-25T18:21:38.392016+00:00 ip-172-31-27-232 sshd[1752]: Invalid user usuario from 179.60.74.230 port 38110
+2024-12-25T18:21:38.423776+00:00 ip-172-31-27-232 sshd[1734]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.423868+00:00 ip-172-31-27-232 sshd[1734]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.425345+00:00 ip-172-31-27-232 sshd[1748]: Invalid user usuario from 179.60.74.230 port 38186
+2024-12-25T18:21:38.437339+00:00 ip-172-31-27-232 sshd[1751]: Invalid user usuario from 179.60.74.230 port 38204
+2024-12-25T18:21:38.437488+00:00 ip-172-31-27-232 sshd[1756]: Invalid user usuario from 179.60.74.230 port 38126
+2024-12-25T18:21:38.440086+00:00 ip-172-31-27-232 sshd[1750]: Invalid user usuario from 179.60.74.230 port 38286
+2024-12-25T18:21:38.449218+00:00 ip-172-31-27-232 sshd[1737]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.449330+00:00 ip-172-31-27-232 sshd[1737]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.459392+00:00 ip-172-31-27-232 sshd[1746]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:38.476808+00:00 ip-172-31-27-232 sshd[1744]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.476868+00:00 ip-172-31-27-232 sshd[1744]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.499812+00:00 ip-172-31-27-232 sshd[1742]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:38.499881+00:00 ip-172-31-27-232 sshd[1736]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.499909+00:00 ip-172-31-27-232 sshd[1736]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.503390+00:00 ip-172-31-27-232 sshd[1740]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.503448+00:00 ip-172-31-27-232 sshd[1740]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.534715+00:00 ip-172-31-27-232 sshd[1752]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.534796+00:00 ip-172-31-27-232 sshd[1752]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.569019+00:00 ip-172-31-27-232 sshd[1748]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.569111+00:00 ip-172-31-27-232 sshd[1748]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.572385+00:00 ip-172-31-27-232 sshd[1755]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:38.578953+00:00 ip-172-31-27-232 sshd[1751]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.579024+00:00 ip-172-31-27-232 sshd[1751]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.579244+00:00 ip-172-31-27-232 sshd[1756]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.579285+00:00 ip-172-31-27-232 sshd[1756]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:38.581502+00:00 ip-172-31-27-232 sshd[1759]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:38.585494+00:00 ip-172-31-27-232 sshd[1750]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:38.585539+00:00 ip-172-31-27-232 sshd[1750]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:40.165406+00:00 ip-172-31-27-232 sshd[1734]: Failed password for invalid user usuario from 179.60.74.230 port 38264 ssh2
+2024-12-25T18:21:40.191642+00:00 ip-172-31-27-232 sshd[1737]: Failed password for invalid user usuario from 179.60.74.230 port 38114 ssh2
+2024-12-25T18:21:40.201641+00:00 ip-172-31-27-232 sshd[1746]: Failed password for root from 179.60.74.230 port 38252 ssh2
+2024-12-25T18:21:40.218764+00:00 ip-172-31-27-232 sshd[1744]: Failed password for invalid user usuario from 179.60.74.230 port 38218 ssh2
+2024-12-25T18:21:40.241647+00:00 ip-172-31-27-232 sshd[1742]: Failed password for root from 179.60.74.230 port 38076 ssh2
+2024-12-25T18:21:40.242094+00:00 ip-172-31-27-232 sshd[1736]: Failed password for invalid user usuario from 179.60.74.230 port 38260 ssh2
+2024-12-25T18:21:40.245286+00:00 ip-172-31-27-232 sshd[1740]: Failed password for invalid user usuario from 179.60.74.230 port 38188 ssh2
+2024-12-25T18:21:40.277083+00:00 ip-172-31-27-232 sshd[1752]: Failed password for invalid user usuario from 179.60.74.230 port 38110 ssh2
+2024-12-25T18:21:40.311068+00:00 ip-172-31-27-232 sshd[1748]: Failed password for invalid user usuario from 179.60.74.230 port 38186 ssh2
+2024-12-25T18:21:40.313293+00:00 ip-172-31-27-232 sshd[1755]: Failed password for root from 179.60.74.230 port 38268 ssh2
+2024-12-25T18:21:40.321254+00:00 ip-172-31-27-232 sshd[1751]: Failed password for invalid user usuario from 179.60.74.230 port 38204 ssh2
+2024-12-25T18:21:40.321520+00:00 ip-172-31-27-232 sshd[1756]: Failed password for invalid user usuario from 179.60.74.230 port 38126 ssh2
+2024-12-25T18:21:40.323250+00:00 ip-172-31-27-232 sshd[1759]: Failed password for root from 179.60.74.230 port 38280 ssh2
+2024-12-25T18:21:40.327276+00:00 ip-172-31-27-232 sshd[1750]: Failed password for invalid user usuario from 179.60.74.230 port 38286 ssh2
+2024-12-25T18:21:40.904887+00:00 ip-172-31-27-232 sshd[1734]: Received disconnect from 179.60.74.230 port 38264:11: Bye Bye [preauth]
+2024-12-25T18:21:40.904973+00:00 ip-172-31-27-232 sshd[1734]: Disconnected from invalid user usuario 179.60.74.230 port 38264 [preauth]
+2024-12-25T18:21:40.942420+00:00 ip-172-31-27-232 sshd[1737]: Received disconnect from 179.60.74.230 port 38114:11: Bye Bye [preauth]
+2024-12-25T18:21:40.942500+00:00 ip-172-31-27-232 sshd[1737]: Disconnected from invalid user usuario 179.60.74.230 port 38114 [preauth]
+2024-12-25T18:21:40.970247+00:00 ip-172-31-27-232 sshd[1744]: Received disconnect from 179.60.74.230 port 38218:11: Bye Bye [preauth]
+2024-12-25T18:21:40.970401+00:00 ip-172-31-27-232 sshd[1744]: Disconnected from invalid user usuario 179.60.74.230 port 38218 [preauth]
+2024-12-25T18:21:40.990056+00:00 ip-172-31-27-232 sshd[1736]: Received disconnect from 179.60.74.230 port 38260:11: Bye Bye [preauth]
+2024-12-25T18:21:40.990139+00:00 ip-172-31-27-232 sshd[1736]: Disconnected from invalid user usuario 179.60.74.230 port 38260 [preauth]
+2024-12-25T18:21:41.002670+00:00 ip-172-31-27-232 sshd[1740]: Received disconnect from 179.60.74.230 port 38188:11: Bye Bye [preauth]
+2024-12-25T18:21:41.002749+00:00 ip-172-31-27-232 sshd[1740]: Disconnected from invalid user usuario 179.60.74.230 port 38188 [preauth]
+2024-12-25T18:21:41.035289+00:00 ip-172-31-27-232 sshd[1752]: Received disconnect from 179.60.74.230 port 38110:11: Bye Bye [preauth]
+2024-12-25T18:21:41.035372+00:00 ip-172-31-27-232 sshd[1752]: Disconnected from invalid user usuario 179.60.74.230 port 38110 [preauth]
+2024-12-25T18:21:41.053903+00:00 ip-172-31-27-232 sshd[955]: exited MaxStartups throttling after 00:00:04, 2 connections dropped
+2024-12-25T18:21:41.067979+00:00 ip-172-31-27-232 sshd[1748]: Received disconnect from 179.60.74.230 port 38186:11: Bye Bye [preauth]
+2024-12-25T18:21:41.068115+00:00 ip-172-31-27-232 sshd[1748]: Disconnected from invalid user usuario 179.60.74.230 port 38186 [preauth]
+2024-12-25T18:21:41.080839+00:00 ip-172-31-27-232 sshd[1756]: Received disconnect from 179.60.74.230 port 38126:11: Bye Bye [preauth]
+2024-12-25T18:21:41.080906+00:00 ip-172-31-27-232 sshd[1756]: Disconnected from invalid user usuario 179.60.74.230 port 38126 [preauth]
+2024-12-25T18:21:41.080935+00:00 ip-172-31-27-232 sshd[1751]: Received disconnect from 179.60.74.230 port 38204:11: Bye Bye [preauth]
+2024-12-25T18:21:41.080960+00:00 ip-172-31-27-232 sshd[1751]: Disconnected from invalid user usuario 179.60.74.230 port 38204 [preauth]
+2024-12-25T18:21:41.091430+00:00 ip-172-31-27-232 sshd[1750]: Received disconnect from 179.60.74.230 port 38286:11: Bye Bye [preauth]
+2024-12-25T18:21:41.091521+00:00 ip-172-31-27-232 sshd[1750]: Disconnected from invalid user usuario 179.60.74.230 port 38286 [preauth]
+2024-12-25T18:21:41.229655+00:00 ip-172-31-27-232 sshd[955]: error: beginning MaxStartups throttling
+2024-12-25T18:21:41.229718+00:00 ip-172-31-27-232 sshd[955]: drop connection #12 from [179.60.74.230]:38314 on [172.31.27.232]:22 past MaxStartups
+2024-12-25T18:21:41.775657+00:00 ip-172-31-27-232 sshd[1764]: Invalid user user from 179.60.74.230 port 38094
+2024-12-25T18:21:41.847807+00:00 ip-172-31-27-232 sshd[1762]: Invalid user user from 179.60.74.230 port 38172
+2024-12-25T18:21:41.862442+00:00 ip-172-31-27-232 sshd[1766]: Invalid user user from 179.60.74.230 port 38102
+2024-12-25T18:21:41.898932+00:00 ip-172-31-27-232 sshd[1764]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:41.899015+00:00 ip-172-31-27-232 sshd[1764]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:41.932705+00:00 ip-172-31-27-232 sshd[1772]: Invalid user user from 179.60.74.230 port 38302
+2024-12-25T18:21:41.942958+00:00 ip-172-31-27-232 sshd[1768]: Invalid user user from 179.60.74.230 port 38150
+2024-12-25T18:21:41.952807+00:00 ip-172-31-27-232 sshd[1777]: Invalid user user from 179.60.74.230 port 38144
+2024-12-25T18:21:41.972536+00:00 ip-172-31-27-232 sshd[1774]: Invalid user user from 179.60.74.230 port 38310
+2024-12-25T18:21:41.982684+00:00 ip-172-31-27-232 sshd[1762]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:41.982738+00:00 ip-172-31-27-232 sshd[1762]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:41.988730+00:00 ip-172-31-27-232 sshd[1776]: Invalid user user from 179.60.74.230 port 38266
+2024-12-25T18:21:41.989422+00:00 ip-172-31-27-232 sshd[1770]: Invalid user user from 179.60.74.230 port 38250
+2024-12-25T18:21:41.996440+00:00 ip-172-31-27-232 sshd[1766]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:41.996490+00:00 ip-172-31-27-232 sshd[1766]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:42.069355+00:00 ip-172-31-27-232 sshd[1772]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:42.069451+00:00 ip-172-31-27-232 sshd[1772]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:42.086265+00:00 ip-172-31-27-232 sshd[1777]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:42.086333+00:00 ip-172-31-27-232 sshd[1777]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:42.086372+00:00 ip-172-31-27-232 sshd[1768]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:42.086403+00:00 ip-172-31-27-232 sshd[1768]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:42.104336+00:00 ip-172-31-27-232 sshd[1774]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:42.104415+00:00 ip-172-31-27-232 sshd[1774]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:42.130458+00:00 ip-172-31-27-232 sshd[1776]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:42.130546+00:00 ip-172-31-27-232 sshd[1776]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:42.130684+00:00 ip-172-31-27-232 sshd[1770]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:42.130721+00:00 ip-172-31-27-232 sshd[1770]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:42.492230+00:00 ip-172-31-27-232 sshd[1780]: Invalid user admin from 179.60.74.230 port 38244
+2024-12-25T18:21:42.624698+00:00 ip-172-31-27-232 sshd[1780]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:42.624779+00:00 ip-172-31-27-232 sshd[1780]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:43.348265+00:00 ip-172-31-27-232 sshd[1746]: Failed password for root from 179.60.74.230 port 38252 ssh2
+2024-12-25T18:21:43.386746+00:00 ip-172-31-27-232 sshd[1742]: Failed password for root from 179.60.74.230 port 38076 ssh2
+2024-12-25T18:21:43.468184+00:00 ip-172-31-27-232 sshd[1755]: Failed password for root from 179.60.74.230 port 38268 ssh2
+2024-12-25T18:21:43.479693+00:00 ip-172-31-27-232 sshd[1759]: Failed password for root from 179.60.74.230 port 38280 ssh2
+2024-12-25T18:21:44.363344+00:00 ip-172-31-27-232 sshd[1772]: Failed password for invalid user user from 179.60.74.230 port 38302 ssh2
+2024-12-25T18:21:44.379914+00:00 ip-172-31-27-232 sshd[1777]: Failed password for invalid user user from 179.60.74.230 port 38144 ssh2
+2024-12-25T18:21:44.380411+00:00 ip-172-31-27-232 sshd[1768]: Failed password for invalid user user from 179.60.74.230 port 38150 ssh2
+2024-12-25T18:21:44.387300+00:00 ip-172-31-27-232 sshd[1764]: Failed password for invalid user user from 179.60.74.230 port 38094 ssh2
+2024-12-25T18:21:44.398247+00:00 ip-172-31-27-232 sshd[1774]: Failed password for invalid user user from 179.60.74.230 port 38310 ssh2
+2024-12-25T18:21:44.424139+00:00 ip-172-31-27-232 sshd[1776]: Failed password for invalid user user from 179.60.74.230 port 38266 ssh2
+2024-12-25T18:21:44.424308+00:00 ip-172-31-27-232 sshd[1770]: Failed password for invalid user user from 179.60.74.230 port 38250 ssh2
+2024-12-25T18:21:44.472214+00:00 ip-172-31-27-232 sshd[1762]: Failed password for invalid user user from 179.60.74.230 port 38172 ssh2
+2024-12-25T18:21:44.486242+00:00 ip-172-31-27-232 sshd[1766]: Failed password for invalid user user from 179.60.74.230 port 38102 ssh2
+2024-12-25T18:21:44.918448+00:00 ip-172-31-27-232 sshd[1780]: Failed password for invalid user admin from 179.60.74.230 port 38244 ssh2
+2024-12-25T18:21:44.933630+00:00 ip-172-31-27-232 sshd[1746]: Received disconnect from 179.60.74.230 port 38252:11: Bye Bye [preauth]
+2024-12-25T18:21:44.933717+00:00 ip-172-31-27-232 sshd[1746]: Disconnected from authenticating user root 179.60.74.230 port 38252 [preauth]
+2024-12-25T18:21:44.934829+00:00 ip-172-31-27-232 sshd[1746]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:44.971782+00:00 ip-172-31-27-232 sshd[1742]: Received disconnect from 179.60.74.230 port 38076:11: Bye Bye [preauth]
+2024-12-25T18:21:44.971891+00:00 ip-172-31-27-232 sshd[1742]: Disconnected from authenticating user root 179.60.74.230 port 38076 [preauth]
+2024-12-25T18:21:44.971919+00:00 ip-172-31-27-232 sshd[1742]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:45.073183+00:00 ip-172-31-27-232 sshd[1755]: Received disconnect from 179.60.74.230 port 38268:11: Bye Bye [preauth]
+2024-12-25T18:21:45.073280+00:00 ip-172-31-27-232 sshd[1755]: Disconnected from authenticating user root 179.60.74.230 port 38268 [preauth]
+2024-12-25T18:21:45.073423+00:00 ip-172-31-27-232 sshd[1755]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:45.086120+00:00 ip-172-31-27-232 sshd[1759]: Received disconnect from 179.60.74.230 port 38280:11: Bye Bye [preauth]
+2024-12-25T18:21:45.086197+00:00 ip-172-31-27-232 sshd[1759]: Disconnected from authenticating user root 179.60.74.230 port 38280 [preauth]
+2024-12-25T18:21:45.086223+00:00 ip-172-31-27-232 sshd[1759]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:45.922505+00:00 ip-172-31-27-232 sshd[1782]: Invalid user admin from 179.60.74.230 port 38080
+2024-12-25T18:21:45.924395+00:00 ip-172-31-27-232 sshd[1780]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:46.023181+00:00 ip-172-31-27-232 sshd[1784]: Invalid user admin from 179.60.74.230 port 38270
+2024-12-25T18:21:46.023371+00:00 ip-172-31-27-232 sshd[1786]: Invalid user admin from 179.60.74.230 port 38182
+2024-12-25T18:21:46.030784+00:00 ip-172-31-27-232 sshd[1764]: Received disconnect from 179.60.74.230 port 38094:11: Bye Bye [preauth]
+2024-12-25T18:21:46.030884+00:00 ip-172-31-27-232 sshd[1764]: Disconnected from invalid user user 179.60.74.230 port 38094 [preauth]
+2024-12-25T18:21:46.065721+00:00 ip-172-31-27-232 sshd[1782]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:46.065844+00:00 ip-172-31-27-232 sshd[1782]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:46.123392+00:00 ip-172-31-27-232 sshd[1762]: Received disconnect from 179.60.74.230 port 38172:11: Bye Bye [preauth]
+2024-12-25T18:21:46.123470+00:00 ip-172-31-27-232 sshd[1762]: Disconnected from invalid user user 179.60.74.230 port 38172 [preauth]
+2024-12-25T18:21:46.136837+00:00 ip-172-31-27-232 sshd[1766]: Received disconnect from 179.60.74.230 port 38102:11: Bye Bye [preauth]
+2024-12-25T18:21:46.136913+00:00 ip-172-31-27-232 sshd[1766]: Disconnected from invalid user user 179.60.74.230 port 38102 [preauth]
+2024-12-25T18:21:46.167003+00:00 ip-172-31-27-232 sshd[1786]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:46.167097+00:00 ip-172-31-27-232 sshd[1786]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:46.167911+00:00 ip-172-31-27-232 sshd[1784]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:46.167968+00:00 ip-172-31-27-232 sshd[1784]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:46.210087+00:00 ip-172-31-27-232 sshd[1772]: Received disconnect from 179.60.74.230 port 38302:11: Bye Bye [preauth]
+2024-12-25T18:21:46.210165+00:00 ip-172-31-27-232 sshd[1772]: Disconnected from invalid user user 179.60.74.230 port 38302 [preauth]
+2024-12-25T18:21:46.226380+00:00 ip-172-31-27-232 sshd[1777]: Received disconnect from 179.60.74.230 port 38144:11: Bye Bye [preauth]
+2024-12-25T18:21:46.226446+00:00 ip-172-31-27-232 sshd[1777]: Disconnected from invalid user user 179.60.74.230 port 38144 [preauth]
+2024-12-25T18:21:46.241791+00:00 ip-172-31-27-232 sshd[1768]: Received disconnect from 179.60.74.230 port 38150:11: Bye Bye [preauth]
+2024-12-25T18:21:46.241871+00:00 ip-172-31-27-232 sshd[1768]: Disconnected from invalid user user 179.60.74.230 port 38150 [preauth]
+2024-12-25T18:21:46.246724+00:00 ip-172-31-27-232 sshd[1774]: Received disconnect from 179.60.74.230 port 38310:11: Bye Bye [preauth]
+2024-12-25T18:21:46.246780+00:00 ip-172-31-27-232 sshd[1774]: Disconnected from invalid user user 179.60.74.230 port 38310 [preauth]
+2024-12-25T18:21:46.261796+00:00 ip-172-31-27-232 sshd[955]: exited MaxStartups throttling after 00:00:05, 4 connections dropped
+2024-12-25T18:21:46.280910+00:00 ip-172-31-27-232 sshd[1776]: Received disconnect from 179.60.74.230 port 38266:11: Bye Bye [preauth]
+2024-12-25T18:21:46.280979+00:00 ip-172-31-27-232 sshd[1776]: Disconnected from invalid user user 179.60.74.230 port 38266 [preauth]
+2024-12-25T18:21:46.282239+00:00 ip-172-31-27-232 sshd[1770]: Received disconnect from 179.60.74.230 port 38250:11: Bye Bye [preauth]
+2024-12-25T18:21:46.282294+00:00 ip-172-31-27-232 sshd[1770]: Disconnected from invalid user user 179.60.74.230 port 38250 [preauth]
+2024-12-25T18:21:46.399633+00:00 ip-172-31-27-232 sshd[955]: error: beginning MaxStartups throttling
+2024-12-25T18:21:46.399693+00:00 ip-172-31-27-232 sshd[955]: drop connection #12 from [179.60.74.230]:38126 on [172.31.27.232]:22 past MaxStartups
+2024-12-25T18:21:46.935677+00:00 ip-172-31-27-232 sshd[1788]: Invalid user admin from 179.60.74.230 port 38070
+2024-12-25T18:21:46.963127+00:00 ip-172-31-27-232 sshd[1790]: Invalid user admin from 179.60.74.230 port 38274
+2024-12-25T18:21:47.043911+00:00 ip-172-31-27-232 sshd[1794]: Invalid user admin from 179.60.74.230 port 38238
+2024-12-25T18:21:47.070662+00:00 ip-172-31-27-232 sshd[1792]: Invalid user admin from 179.60.74.230 port 38258
+2024-12-25T18:21:47.072367+00:00 ip-172-31-27-232 sshd[1788]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.072416+00:00 ip-172-31-27-232 sshd[1788]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.087299+00:00 ip-172-31-27-232 sshd[1790]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.087370+00:00 ip-172-31-27-232 sshd[1790]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.108801+00:00 ip-172-31-27-232 sshd[1802]: Invalid user administrador from 179.60.74.230 port 38128
+2024-12-25T18:21:47.157571+00:00 ip-172-31-27-232 sshd[1799]: Invalid user administrador from 179.60.74.230 port 38158
+2024-12-25T18:21:47.157756+00:00 ip-172-31-27-232 sshd[1796]: Invalid user admin from 179.60.74.230 port 38138
+2024-12-25T18:21:47.167846+00:00 ip-172-31-27-232 sshd[1794]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.167930+00:00 ip-172-31-27-232 sshd[1794]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.196039+00:00 ip-172-31-27-232 sshd[1798]: Invalid user administrador from 179.60.74.230 port 38288
+2024-12-25T18:21:47.213720+00:00 ip-172-31-27-232 sshd[1792]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.213785+00:00 ip-172-31-27-232 sshd[1792]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.240641+00:00 ip-172-31-27-232 sshd[1802]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.240699+00:00 ip-172-31-27-232 sshd[1802]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.299839+00:00 ip-172-31-27-232 sshd[1799]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.299896+00:00 ip-172-31-27-232 sshd[1799]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.299935+00:00 ip-172-31-27-232 sshd[1796]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.299966+00:00 ip-172-31-27-232 sshd[1796]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.339610+00:00 ip-172-31-27-232 sshd[1798]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.339668+00:00 ip-172-31-27-232 sshd[1798]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.447840+00:00 ip-172-31-27-232 sshd[1804]: Invalid user administrador from 179.60.74.230 port 38316
+2024-12-25T18:21:47.581740+00:00 ip-172-31-27-232 sshd[1804]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:47.581821+00:00 ip-172-31-27-232 sshd[1804]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:47.962283+00:00 ip-172-31-27-232 sshd[1780]: Failed password for invalid user admin from 179.60.74.230 port 38244 ssh2
+2024-12-25T18:21:48.239430+00:00 ip-172-31-27-232 sshd[1782]: Failed password for invalid user admin from 179.60.74.230 port 38080 ssh2
+2024-12-25T18:21:48.340692+00:00 ip-172-31-27-232 sshd[1786]: Failed password for invalid user admin from 179.60.74.230 port 38182 ssh2
+2024-12-25T18:21:48.341320+00:00 ip-172-31-27-232 sshd[1784]: Failed password for invalid user admin from 179.60.74.230 port 38270 ssh2
+2024-12-25T18:21:48.387875+00:00 ip-172-31-27-232 sshd[1806]: Invalid user administrador from 179.60.74.230 port 38078
+2024-12-25T18:21:48.515974+00:00 ip-172-31-27-232 sshd[1806]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:48.516116+00:00 ip-172-31-27-232 sshd[1806]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:49.218065+00:00 ip-172-31-27-232 sshd[1780]: Received disconnect from 179.60.74.230 port 38244:11: Bye Bye [preauth]
+2024-12-25T18:21:49.218154+00:00 ip-172-31-27-232 sshd[1780]: Disconnected from invalid user admin 179.60.74.230 port 38244 [preauth]
+2024-12-25T18:21:49.218180+00:00 ip-172-31-27-232 sshd[1780]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:49.373635+00:00 ip-172-31-27-232 sshd[1782]: Received disconnect from 179.60.74.230 port 38080:11: Bye Bye [preauth]
+2024-12-25T18:21:49.373732+00:00 ip-172-31-27-232 sshd[1782]: Disconnected from invalid user admin 179.60.74.230 port 38080 [preauth]
+2024-12-25T18:21:49.473329+00:00 ip-172-31-27-232 sshd[1786]: Received disconnect from 179.60.74.230 port 38182:11: Bye Bye [preauth]
+2024-12-25T18:21:49.473396+00:00 ip-172-31-27-232 sshd[1786]: Disconnected from invalid user admin 179.60.74.230 port 38182 [preauth]
+2024-12-25T18:21:49.474738+00:00 ip-172-31-27-232 sshd[1784]: Received disconnect from 179.60.74.230 port 38270:11: Bye Bye [preauth]
+2024-12-25T18:21:49.474797+00:00 ip-172-31-27-232 sshd[1784]: Disconnected from invalid user admin 179.60.74.230 port 38270 [preauth]
+2024-12-25T18:21:49.717651+00:00 ip-172-31-27-232 sshd[1788]: Failed password for invalid user admin from 179.60.74.230 port 38070 ssh2
+2024-12-25T18:21:49.731669+00:00 ip-172-31-27-232 sshd[1790]: Failed password for invalid user admin from 179.60.74.230 port 38274 ssh2
+2024-12-25T18:21:49.813019+00:00 ip-172-31-27-232 sshd[1794]: Failed password for invalid user admin from 179.60.74.230 port 38238 ssh2
+2024-12-25T18:21:49.859263+00:00 ip-172-31-27-232 sshd[1792]: Failed password for invalid user admin from 179.60.74.230 port 38258 ssh2
+2024-12-25T18:21:49.885898+00:00 ip-172-31-27-232 sshd[1802]: Failed password for invalid user administrador from 179.60.74.230 port 38128 ssh2
+2024-12-25T18:21:49.944408+00:00 ip-172-31-27-232 sshd[1799]: Failed password for invalid user administrador from 179.60.74.230 port 38158 ssh2
+2024-12-25T18:21:49.944938+00:00 ip-172-31-27-232 sshd[1796]: Failed password for invalid user admin from 179.60.74.230 port 38138 ssh2
+2024-12-25T18:21:49.983403+00:00 ip-172-31-27-232 sshd[1798]: Failed password for invalid user administrador from 179.60.74.230 port 38288 ssh2
+2024-12-25T18:21:50.162667+00:00 ip-172-31-27-232 sshd[1808]: Invalid user administrador from 179.60.74.230 port 38276
+2024-12-25T18:21:50.226999+00:00 ip-172-31-27-232 sshd[1804]: Failed password for invalid user administrador from 179.60.74.230 port 38316 ssh2
+2024-12-25T18:21:50.297399+00:00 ip-172-31-27-232 sshd[1806]: Failed password for invalid user administrador from 179.60.74.230 port 38078 ssh2
+2024-12-25T18:21:50.305134+00:00 ip-172-31-27-232 sshd[1808]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:50.305191+00:00 ip-172-31-27-232 sshd[1808]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:50.363561+00:00 ip-172-31-27-232 sshd[1788]: Received disconnect from 179.60.74.230 port 38070:11: Bye Bye [preauth]
+2024-12-25T18:21:50.363626+00:00 ip-172-31-27-232 sshd[1788]: Disconnected from invalid user admin 179.60.74.230 port 38070 [preauth]
+2024-12-25T18:21:50.373865+00:00 ip-172-31-27-232 sshd[1790]: Received disconnect from 179.60.74.230 port 38274:11: Bye Bye [preauth]
+2024-12-25T18:21:50.374776+00:00 ip-172-31-27-232 sshd[1790]: Disconnected from invalid user admin 179.60.74.230 port 38274 [preauth]
+2024-12-25T18:21:50.446544+00:00 ip-172-31-27-232 sshd[1810]: Invalid user administrador from 179.60.74.230 port 38126
+2024-12-25T18:21:50.450905+00:00 ip-172-31-27-232 sshd[1794]: Received disconnect from 179.60.74.230 port 38238:11: Bye Bye [preauth]
+2024-12-25T18:21:50.450968+00:00 ip-172-31-27-232 sshd[1794]: Disconnected from invalid user admin 179.60.74.230 port 38238 [preauth]
+2024-12-25T18:21:50.462331+00:00 ip-172-31-27-232 sshd[1802]: Received disconnect from 179.60.74.230 port 38128:11: Bye Bye [preauth]
+2024-12-25T18:21:50.462395+00:00 ip-172-31-27-232 sshd[1802]: Disconnected from invalid user administrador 179.60.74.230 port 38128 [preauth]
+2024-12-25T18:21:50.519582+00:00 ip-172-31-27-232 sshd[1792]: Connection closed by invalid user admin 179.60.74.230 port 38258 [preauth]
+2024-12-25T18:21:50.543924+00:00 ip-172-31-27-232 sshd[1799]: Connection closed by invalid user administrador 179.60.74.230 port 38158 [preauth]
+2024-12-25T18:21:50.581341+00:00 ip-172-31-27-232 sshd[1798]: Connection closed by invalid user administrador 179.60.74.230 port 38288 [preauth]
+2024-12-25T18:21:50.582466+00:00 ip-172-31-27-232 sshd[955]: exited MaxStartups throttling after 00:00:04, 7 connections dropped
+2024-12-25T18:21:50.589496+00:00 ip-172-31-27-232 sshd[1810]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:50.589555+00:00 ip-172-31-27-232 sshd[1810]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:50.610652+00:00 ip-172-31-27-232 sshd[1796]: Connection closed by invalid user admin 179.60.74.230 port 38138 [preauth]
+2024-12-25T18:21:50.734452+00:00 ip-172-31-27-232 sshd[1812]: Invalid user administrador from 179.60.74.230 port 38224
+2024-12-25T18:21:50.761626+00:00 ip-172-31-27-232 sshd[1814]: Invalid user administrador from 179.60.74.230 port 38286
+2024-12-25T18:21:50.817205+00:00 ip-172-31-27-232 sshd[1804]: Connection closed by invalid user administrador 179.60.74.230 port 38316 [preauth]
+2024-12-25T18:21:50.877000+00:00 ip-172-31-27-232 sshd[1812]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:50.877103+00:00 ip-172-31-27-232 sshd[1812]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:50.906380+00:00 ip-172-31-27-232 sshd[1814]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:50.906440+00:00 ip-172-31-27-232 sshd[1814]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:51.286723+00:00 ip-172-31-27-232 sshd[1816]: Invalid user administrador from 179.60.74.230 port 38250
+2024-12-25T18:21:51.430192+00:00 ip-172-31-27-232 sshd[1816]: pam_unix(sshd:auth): check pass; user unknown
+2024-12-25T18:21:51.430257+00:00 ip-172-31-27-232 sshd[1816]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230 
+2024-12-25T18:21:51.465532+00:00 ip-172-31-27-232 sshd[1818]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:51.485001+00:00 ip-172-31-27-232 sshd[1820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.60.74.230  user=root
+2024-12-25T18:21:51.740531+00:00 ip-172-31-27-232 sshd[1806]: Connection closed by invalid user administrador 179.60.74.230 port 38078 [preauth]
+2024-12-25T18:21:52.027353+00:00 ip-172-31-27-232 sshd[1808]: Failed password for invalid user administrador from 179.60.74.230 port 38276 ssh2
+2024-12-25T18:21:52.311927+00:00 ip-172-31-27-232 sshd[1810]: Failed password for invalid user administrador from 179.60.74.230 port 38126 ssh2
+2024-12-25T18:21:52.599255+00:00 ip-172-31-27-232 sshd[1812]: Failed password for invalid user administrador from 179.60.74.230 port 38224 ssh2
+2024-12-25T18:21:52.629040+00:00 ip-172-31-27-232 sshd[1814]: Failed password for invalid user administrador from 179.60.74.230 port 38286 ssh2
+2024-12-25T18:21:53.292419+00:00 ip-172-31-27-232 sshd[1816]: Failed password for invalid user administrador from 179.60.74.230 port 38250 ssh2
+2024-12-25T18:21:53.327844+00:00 ip-172-31-27-232 sshd[1818]: Failed password for root from 179.60.74.230 port 38260 ssh2
+2024-12-25T18:21:53.347039+00:00 ip-172-31-27-232 sshd[1820]: Failed password for root from 179.60.74.230 port 38226 ssh2
+2024-12-25T18:21:53.549488+00:00 ip-172-31-27-232 sshd[1808]: Connection closed by invalid user administrador 179.60.74.230 port 38276 [preauth]
+2024-12-25T18:21:53.669170+00:00 ip-172-31-27-232 sshd[1818]: Connection closed by authenticating user root 179.60.74.230 port 38260 [preauth]
+2024-12-25T18:21:53.688314+00:00 ip-172-31-27-232 sshd[1820]: Connection closed by authenticating user root 179.60.74.230 port 38226 [preauth]
+2024-12-25T18:21:53.836006+00:00 ip-172-31-27-232 sshd[1810]: Connection closed by invalid user administrador 179.60.74.230 port 38126 [preauth]
+2024-12-25T18:21:54.120459+00:00 ip-172-31-27-232 sshd[1812]: Connection closed by invalid user administrador 179.60.74.230 port 38224 [preauth]
+2024-12-25T18:21:54.151375+00:00 ip-172-31-27-232 sshd[1814]: Connection closed by invalid user administrador 179.60.74.230 port 38286 [preauth]
+2024-12-25T18:21:54.686379+00:00 ip-172-31-27-232 sshd[1816]: Connection closed by invalid user administrador 179.60.74.230 port 38250 [preauth]
+2024-12-25T18:25:01.610294+00:00 ip-172-31-27-232 CRON[1824]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-12-25T18:25:01.612888+00:00 ip-172-31-27-232 CRON[1824]: pam_unix(cron:session): session closed for user root
+2024-12-25T18:28:03.801147+00:00 ip-172-31-27-232 sshd[1828]: Accepted publickey for ubuntu from 179.60.74.230 port 38177 ssh2: RSA SHA256:PuvCit2H3kdHlZfM+3lYC9nIeHog/JGNez001l2LJzE
+2024-12-25T18:28:03.805067+00:00 ip-172-31-27-232 sshd[1828]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T18:28:03.807644+00:00 ip-172-31-27-232 systemd-logind[572]: New session 14 of user ubuntu.
+2024-12-25T18:29:48.833018+00:00 ip-172-31-27-232 sshd[1895]: Accepted publickey for ubuntu from 179.60.74.230 port 38145 ssh2: RSA SHA256:PuvCit2H3kdHlZfM+3lYC9nIeHog/JGNez001l2LJzE
+2024-12-25T18:29:48.834471+00:00 ip-172-31-27-232 sshd[1895]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-12-25T18:29:48.839007+00:00 ip-172-31-27-232 systemd-logind[572]: New session 15 of user ubuntu.
+2024-12-25T18:29:51.711338+00:00 ip-172-31-27-232 sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su
+2024-12-25T18:29:51.714867+00:00 ip-172-31-27-232 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-12-25T18:29:51.715003+00:00 ip-172-31-27-232 su[1963]: (to root) root on pts/5
+2024-12-25T18:29:51.716175+00:00 ip-172-31-27-232 su[1963]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-12-25T18:31:38.096495+00:00 ip-172-31-27-232 sshd[1976]: error: kex_exchange_identification: read: Connection reset by peer
+2024-12-25T18:31:38.096654+00:00 ip-172-31-27-232 sshd[1976]: Connection reset by 45.79.115.59 port 35173

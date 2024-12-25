@@ -1,9 +1,39 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>403 Forbidden</title>
-</head><body>
-<h1>Forbidden</h1>
-<p>You don't have permission to access this resource.</p>
-<hr>
-<address>Apache/2.4.58 (Ubuntu) Server at 54.81.37.208 Port 80</address>
-</body></html>
+159.223.69.51 - - [25/Dec/2024:13:05:55 +0000] "GET /cdn-cgi/trace HTTP/1.1" 404 462 "-" "Mozilla/5.0"
+159.223.69.51 - - [25/Dec/2024:13:06:08 +0000] "\x16\x03\x01\x01\v\x01" 400 503 "-" "-"
+181.42.43.32 - - [25/Dec/2024:13:14:20 +0000] "GET / HTTP/1.1" 200 3460 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+181.42.43.32 - - [25/Dec/2024:13:14:20 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 200 3607 "http://34.228.169.218/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+181.42.43.32 - - [25/Dec/2024:13:14:20 +0000] "GET /favicon.ico HTTP/1.1" 404 492 "http://34.228.169.218/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+181.42.43.32 - - [25/Dec/2024:13:19:41 +0000] "GET / HTTP/1.1" 200 3460 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+181.42.43.32 - - [25/Dec/2024:13:19:41 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 200 3607 "http://34.228.169.218/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+181.42.43.32 - - [25/Dec/2024:13:19:41 +0000] "GET /favicon.ico HTTP/1.1" 404 492 "http://34.228.169.218/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+34.228.169.218 - - [25/Dec/2024:13:22:20 +0000] "GET / HTTP/1.1" 200 10926 "-" "curl/8.5.0"
+34.228.169.218 - - [25/Dec/2024:13:22:29 +0000] "GET / HTTP/1.1" 200 10982 "-" "Wget/1.21.4"
+172.168.41.162 - - [25/Dec/2024:13:30:28 +0000] "GET / HTTP/1.1" 200 3404 "-" "Mozilla/5.0 zgrab/0.x"
+45.79.181.223 - - [25/Dec/2024:13:45:46 +0000] "\x16\x03\x01" 400 503 "-" "-"
+95.214.53.248 - - [25/Dec/2024:13:48:26 +0000] "GET / HTTP/1.1" 200 10926 "-" "-"
+93.174.93.12 - - [25/Dec/2024:14:19:59 +0000] "\x16\x03\x02\x01o\x01" 400 503 "-" "-"
+66.63.187.168 - - [25/Dec/2024:15:09:04 +0000] "GET /.env HTTP/1.1" 404 437 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+66.63.187.168 - - [25/Dec/2024:15:09:05 +0000] "POST / HTTP/1.1" 200 3404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+66.63.187.168 - - [25/Dec/2024:15:09:05 +0000] "GET /api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60 HTTP/1.1" 404 437 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+185.191.126.213 - - [25/Dec/2024:15:09:33 +0000] "GET / HTTP/1.1" 200 10926 "-" "-"
+179.60.74.230 - - [25/Dec/2024:17:13:34 +0000] "GET / HTTP/1.1" 200 3460 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:13:34 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 200 3607 "http://54.81.37.208/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:13:34 +0000] "GET /favicon.ico HTTP/1.1" 404 490 "http://54.81.37.208/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:17:31 +0000] "GET /archivos HTTP/1.1" 301 581 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:17:31 +0000] "GET /archivos/ HTTP/1.1" 200 771 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:17:32 +0000] "GET /icons/blank.gif HTTP/1.1" 200 431 "http://54.81.37.208/archivos/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:17:32 +0000] "GET /icons/back.gif HTTP/1.1" 200 499 "http://54.81.37.208/archivos/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:17:32 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 529 "http://54.81.37.208/archivos/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:17:35 +0000] "GET /archivos/access.log HTTP/1.1" 403 493 "http://54.81.37.208/archivos/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:17:43 +0000] "GET /archivos/access.log HTTP/1.1" 403 494 "http://54.81.37.208/archivos/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:18:12 +0000] "GET /archivos/auth.log HTTP/1.1" 403 494 "http://54.81.37.208/archivos/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:18:20 +0000] "GET /archivos/capturaevaparc2.pcap HTTP/1.1" 200 163254 "http://54.81.37.208/archivos/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:17:18:29 +0000] "GET /archivos/error.log HTTP/1.1" 403 494 "http://54.81.37.208/archivos/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+101.109.223.6 - - [25/Dec/2024:17:23:25 +0000] "GET / HTTP/1.0" 200 10945 "-" "Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+106.107.222.30 - - [25/Dec/2024:17:28:17 +0000] "GET / HTTP/1.0" 200 10945 "-" "Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+114.35.42.193 - - [25/Dec/2024:18:01:52 +0000] "GET / HTTP/1.0" 200 10945 "-" "Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+179.60.74.230 - - [25/Dec/2024:18:29:18 +0000] "GET /archivos/campodemarte.jpeg HTTP/1.1" 404 491 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:18:29:29 +0000] "GET /campodemarte.jpeg HTTP/1.1" 404 491 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:18:30:30 +0000] "GET /archivos/campodemarte.jpeg HTTP/1.1" 200 107314 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:18:30:30 +0000] "GET /favicon.ico HTTP/1.1" 404 490 "http://54.81.37.208/archivos/campodemarte.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+179.60.74.230 - - [25/Dec/2024:18:30:42 +0000] "GET /archivos/campodemarte.jpeg HTTP/1.1" 200 107314 "-" "Wget/1.24.5"
